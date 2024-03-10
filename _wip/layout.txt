@@ -1,0 +1,6 @@
+[{x:0.5,a:7,f:8},"F1","F2","F3","F4",{x:3},"F5","F6","F7","F8"],
+["<i class='mss mss-Unicode-Escape-3'></i>","Q","W","E","R","T","Y","U","I","O","P","<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>"],
+[{w:1.25},"<i class='kb kb-Tab-2'></i>","A","S","D","F","G","H","J","K","L",{w:1.75},"<i class='mss mss-Unicode-Enter-3'></i>"],
+[{w:1.75},"<i class='kb kb-Arrows-Top-4'></i>","Z","X","C","V","B","N","M",",",".",{w:1.25},"/"],
+[{x:0.5,w:1.5},"<i class='kb kb-Unicode-Control-3'></i>",{x:8,w:1.5},""],
+[{y:-0.75,x:2.25},"<i class='kb kb-logo-windows-7'></i>","<i class='mss mss-Unicode-Alternate-3'></i>",{w:2.25},"",{w:2},"",{w:1.25},"fn"]
