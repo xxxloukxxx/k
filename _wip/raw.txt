@@ -1,0 +1,37 @@
+points:
+  zones:
+    matrix:
+      columns:
+        pinky:
+        pinky.key.splay: -5
+        ring.key.stagger: 0.5u
+        ring.key.splay: -2
+        middle.key.stagger: 0.25u
+        middle.key.splay: -2
+        index.key.stagger: -0.25u
+        index.key.splay: -1
+        inner.key.stagger: -0.15u
+      rows:
+        bottom.padding: u
+        home.padding: u
+        top.padding: u
+    thumb:
+      anchor:
+        ref: matrix_index_bottom
+        shift: [-.75u, -1.1u]
+        rotate: 0
+      columns:
+        bucky:
+        tucky:
+          key.splay: -15
+          key.origin: [-0.5u, -0.65u]
+          key.name: thumb_tucky
+        reachy:
+          key.spread: u
+          key.splay: -15
+          key.origin: [-0.5u, -0.7u]
+          key.name: thumb_reachy
+          key.height: 1.5u
+  mirror: &mirror
+    ref: thumb_reachy
+    distance: 2.1u
