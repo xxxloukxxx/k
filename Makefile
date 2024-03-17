@@ -7,7 +7,6 @@ clean :
 
 git :
 	git add . && git commit -m \"$(date)\"
-	git push || true
-	
+	git push
 
 .SILENT : 
