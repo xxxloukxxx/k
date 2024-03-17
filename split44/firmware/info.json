@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "split46",
+    "keyboard_name": "split44",
     "manufacturer": "xxxloukxxx",
     "url": "",
     "maintainer": "WaM",
@@ -21,8 +21,8 @@
     "processor": "RP2040",
     "usb": {
         "device_version": "1.1.1",
-        "pid": "0xFEED",
-        "vid": "0x4433"
+        "pid": "0xDACA",
+        "vid": "0xCAFE"
   },
     "layouts": {
         "LAYOUT": {
@@ -63,16 +63,14 @@
                 { "matrix": [6, 2], "x":9  , "y": 2 },
                 { "matrix": [6, 1], "x":10 , "y": 2 },
                 { "matrix": [6, 0], "x":11 , "y": 2 },
-                { "matrix": [3, 0], "x":0  , "y": 3 },
-                { "matrix": [3, 1], "x":1  , "y": 3 },
+                { "matrix": [3, 2], "x":1  , "y": 3 },
                 { "matrix": [3, 3], "x":2  , "y": 3 },
                 { "matrix": [3, 4], "x":3  , "y": 3 },
                 { "matrix": [3, 5], "x":4  , "y": 3 },
                 { "matrix": [7, 5], "x":5  , "y": 3 },
                 { "matrix": [7, 4], "x":6  , "y": 3 },
                 { "matrix": [7, 3], "x":7  , "y": 3 },
-                { "matrix": [7, 1], "x":8  , "y": 3 }
-                { "matrix": [7, 0], "x":9  , "y": 3 }
+                { "matrix": [7, 2], "x":8  , "y": 3 }
             ]
       }
   },
