@@ -2,23 +2,35 @@ points:
   zones:
     matrix:
       columns:
-        pinky:
-        pinky.key.splay: -5
+        pinky2.key.splay: -7.5
+        pinky.key.spread: 1.02u
+        pinky.key.stagger: 0.25u
         ring.key.stagger: 0.5u
         ring.key.splay: -2
+        ring.key.spread: 1.02u
         middle.key.stagger: 0.25u
         middle.key.splay: -2
+        middle.key.spread: 1.02u
         index.key.stagger: -0.25u
         index.key.splay: -1
+        index.key.spread: 1.02u
         inner.key.stagger: -0.15u
+        inner.key.spread: 1.02u
       rows:
         bottom.padding: u
         home.padding: u
         top.padding: u
+    pinky:
+      anchor:
+        ref: matrix_ring_bottom
+        shift: [.05u, -1.3u]
+        rotate: 0
+      columns:
+        bucky:
     thumb:
       anchor:
         ref: matrix_index_bottom
-        shift: [-.75u, -1.1u]
+        shift: [-.5u, -1.3u]
         rotate: 0
       columns:
         bucky:
@@ -34,4 +46,9 @@ points:
           key.height: 1.5u
   mirror: &mirror
     ref: thumb_reachy
-    distance: 2.1u
+    distance: 2.5u
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [1.25u, 1.25u]
