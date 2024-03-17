@@ -6,6 +6,8 @@ clean :
 	find -name "*~" -exec rm {} \; 2> /dev/null
 
 git :
-	git add . && git commit -m \"$(date)\" && git push
+	git add . && git commit -m \"$(date)\"
+	git push 2> /dev/null
+	
 
 .SILENT : 
