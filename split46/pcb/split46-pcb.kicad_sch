@@ -2038,7 +2038,7 @@
     (property "Value" "rp2040-zero" (at 139.7 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "mcu:rp2040-zero-tht" (at 130.81 74.93 0)
+    (property "Footprint" "_mcu:rp2040-zero-tht" (at 130.81 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 130.81 74.93 0)
