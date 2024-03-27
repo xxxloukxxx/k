@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [NAV] = LAYOUT(
         KC_1, KC_2, KC_3, KC_4, KC_5, KC_END, KC_PGUP, KC_BACKSPACE, KC_UP, KC_DEL,
         KC_6, KC_7, KC_8, KC_9, KC_0, KC_HOME, KC_PGDN, KC_LEFT, KC_DOWN, KC_RIGHT,
-        ___, ___, ___, ___, ___, ___, ___, ___, ___, ___,
+        ___, KC_MINS, KC_EQL, KC_COMM, KC_DOT,___,___, ___,___, ___,
         ___, ___, ___, ___, ___, ___),
 
     [FN] = LAYOUT(
@@ -50,7 +50,7 @@ const uint16_t PROGMEM comb_f14[] = {KC_X, KC_C, KC_V, COMBO_END};
 combo_t key_combos[] = {
     COMBO(comb_esc, KC_ESC),
     COMBO(comb_tab, KC_TAB),
-    COMBO(comb_bs, KC_BACKSPACE),
+//    COMBO(comb_bs, KC_BACKSPACE),
     COMBO(comb_f13, KC_F13),
     COMBO(comb_f14, KC_F14),
 };
