@@ -1,0 +1,44 @@
+points:
+  zones:
+    matrix:
+      key:
+        padding: 1u
+        spread: 1u
+        width: u
+        height: u
+      columns:
+        pinkyyy:
+        pinky:
+        ring:
+          key.stagger: .25u
+        middle:
+          key.stagger: .125u
+        index:
+          key.stagger: -.125u
+        inner:
+          key.stagger: -.125u
+      rows:
+        bottom:
+        home:
+        top:      
+    thumbs:
+      anchor.ref: matrix_index_bottom 
+      anchor.shift: [-0.5u,-1.125u]
+      key:
+        padding: 1u
+        spread: 1u
+        width: u
+        height: u
+      columns:
+        layer:
+          key.spread: 1.125u
+        mid.key:
+          splay: -12
+          origin: [-u/2, -u/2]
+        th.key:
+          height: 1.5u
+          shift: [0,u/4]
+          origin: [-u/2, -u/2]
+          splay: -12
+      rows:
+        cluster:
