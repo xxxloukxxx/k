@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GRV, KC_NUMBERS, KC_DEL,                                                                //
         KC_CAPS, ___, ___, ___, ___, ___, /*   */ ___, KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_BSLS, //
         ___, ___, ___, ___, ___, ___, /*   */ ___, ___, ___, ___, KC_PGUP, KC_SCLN,                //
-        ___, ___, ___, ___, /*   */___, /*   */___, KC_HOME, KC_PGDN, KC_END),                                   //
+        ___, ___, ___, ___, /*   */ ___, /*   */ ___, KC_HOME, KC_PGDN, KC_END),                   //
 
     [FUNC] = LAYOUT_mrtod(                                                                     //
         ___, KC_FNxx, KC_INS,                                                                  //
@@ -57,8 +57,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ___, ___, ___, ___, /*   */ ___, /*   */ ___, ___, ___, ___),                          //
 
     [NAV] = LAYOUT_mrtod(                                                                //
-        ___, ___, ___, ___, ___, ___, /*   */ ___, ___, KC_UP, ___, ___, ___,            //
-        ___, ___, ___, ___, ___, ___, /*   */ ___, KC_LEFT, KC_DOWN, KC_RIGHT, ___, ___, //
+        ___, ___, ___, ___, ___, ___, /*   */ KC_PGUP, ___, KC_UP, ___, ___, KC_DEL,         //
+        ___, ___, ___, ___, ___, ___, /*   */ KC_PGDN, KC_LEFT, KC_DOWN, KC_RIGHT, ___, ___, //
         ___, ___, ___, ___, ___, ___, /*   */ ___, ___, ___, ___, ___, ___,              //
         ___, ___, ___, ___, ___, ___, /*   */ ___, ___, ___),                            //
 
@@ -79,9 +79,10 @@ const uint16_t PROGMEM combo_TERM[] = {KC_ESC, KC_Q, KC_W, COMBO_END};
 const uint16_t PROGMEM combo_HOME[] = {KC_LEFT, KC_DOWN, COMBO_END};
 const uint16_t PROGMEM combo_END[] = {KC_DOWN, KC_RIGHT, COMBO_END};
 //
-const uint16_t PROGMEM combo_BS[] = {KC_O, KC_P, COMBO_END};
-const uint16_t PROGMEM combo_ESC[] = {KC_Q, KC_W, COMBO_END};
-const uint16_t PROGMEM combo_TAB[] = {KC_A, KC_S, COMBO_END};
+//const uint16_t PROGMEM combo_BS[] = {KC_O, KC_P, COMBO_END};
+//const uint16_t PROGMEM combo_ESC[] = {KC_Q, KC_W, COMBO_END};
+//const uint16_t PROGMEM combo_TAB[] = {KC_A, KC_S, COMBO_END};
+const uint16_t PROGMEM combo_RST[] = {KC_F7, KC_F8,KC_F9, KC_F10, COMBO_END};
 
 combo_t key_combos[] = {
     COMBO(test_LACC, LSFT(KC_LBRC)),
@@ -93,9 +94,10 @@ combo_t key_combos[] = {
     COMBO(combo_TERM, LGUI(LSFT(KC_ENTER))),
     COMBO(combo_HOME, KC_HOME),
     COMBO(combo_END, KC_END),
-    COMBO(combo_BS, KC_BACKSPACE),
-    COMBO(combo_ESC, KC_ESC),
-    COMBO(combo_TAB, KC_TAB),
+//    COMBO(combo_BS, KC_BACKSPACE),
+//    COMBO(combo_ESC, KC_ESC),
+//    COMBO(combo_TAB, KC_TAB),
+    COMBO(combo_RST, QK_BOOT),
 };
 
 void leader_start_user(void)
