@@ -21,7 +21,6 @@ enum
     QWERTY = 0,
     NUM,
     FUNC,
-    SYMB,
     NUMPAD
 };
 
@@ -54,11 +53,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [FUNC] = LAYOUT_mrtod(
         ___, KC_FNxx, KC_INS,
         ___, KC_MEDIA, ___, ___, ___, KC_F11, KC_F12, ___,
-        ___, KC_PSCR, KC_SCRL, KC_PAUS, ___, ___, ___, ___, ___, ___, ___, ___,
-        MO(SYMB), ___, ___, ___, ___, ___, ___, ___, ___),
+        ___, KC_PSCR, KC_SCRL, KC_PAUS, ___, ___, ___, ___, ___, ___, ___, TO(NUMPAD),
+        ___, ___, ___, ___, ___, ___, ___, ___, ___),
 
     [NUMPAD] = LAYOUT_mrtod(
-        TO(0), KC_7, KC_8, KC_9, KC_PSLS, KC_PAST, ___, ___, ___, ___, ___, ___,
+        TO(QWERTY), KC_7, KC_8, KC_9, KC_PSLS, KC_PAST, ___, ___, ___, ___, ___, ___,
         ___, KC_4, KC_5, KC_6, KC_PMNS, KC_PPLS, ___, ___, ___, ___, ___, ___,
         ___, KC_1, KC_2, KC_3, KC_DOT, KC_NO, ___, ___, ___, ___, ___, ___,
         ___, ___, KC_0, KC_ENT, ___, ___, ___, ___, ___)
