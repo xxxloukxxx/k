@@ -14,8 +14,7 @@ AUDIO_ENABLE = no           # Audio output
 LTO_ENABLE = yes
 KEY_LOCK_ENABLE = yes
 
-LEADER_ENABLE = yes
+# LEADER_ENABLE = yes
 
 COMBO_ENABLE = yes
-
 TAP_DANCE_ENABLE=yes
