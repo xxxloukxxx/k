@@ -18,16 +18,16 @@
 // Layers
 enum
 {
-  QWERTY = 0,
-  NUM,
-  FUNC,
-  NUMPAD
+    QWERTY = 0,
+    NUM,
+    FUNC,
+    NUMPAD
 };
 
 // Tap Dance Declarations
 enum
 {
-  TD_GUI = 0,
+    TD_GUI = 0,
 };
 
 tap_dance_action_t tap_dance_actions[] = {
@@ -63,20 +63,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ___, ___, KC_0, KC_ENT, ___, ___, ___, ___, ___)                              //
 };
 
-const uint16_t PROGMEM test_LACC[] = {KC_S, KC_D, COMBO_END};
-const uint16_t PROGMEM test_LBRC[] = {KC_D, KC_F, COMBO_END};
-const uint16_t PROGMEM test_LPRN[] = {KC_F, KC_G, COMBO_END};
-const uint16_t PROGMEM test_RPRN[] = {KC_H, KC_J, COMBO_END};
-const uint16_t PROGMEM test_RBRC[] = {KC_J, KC_K, COMBO_END};
-const uint16_t PROGMEM test_RACC[] = {KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM test_LACC[] = {KC_A, KC_S, KC_D, COMBO_END};
+const uint16_t PROGMEM test_LBRC[] = {KC_S, KC_D, KC_F, COMBO_END};
+const uint16_t PROGMEM test_LPRN[] = {KC_D, KC_F, KC_G, COMBO_END};
+const uint16_t PROGMEM test_RPRN[] = {KC_H, KC_J, KC_K, COMBO_END};
+const uint16_t PROGMEM test_RBRC[] = {KC_J, KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM test_RACC[] = {KC_K, KC_L, KC_QUOT, COMBO_END};
 const uint16_t PROGMEM combo_TERM[] = {KC_ESC, KC_Q, KC_W, COMBO_END};
 const uint16_t PROGMEM combo_HOME[] = {KC_LEFT, KC_DOWN, COMBO_END};
 const uint16_t PROGMEM combo_END[] = {KC_DOWN, KC_RIGHT, COMBO_END};
+const uint16_t PROGMEM combo_RALT[] = {KC_COMM, KC_DOT, COMBO_END};
 //
 // const uint16_t PROGMEM combo_BS[] = {KC_O, KC_P, COMBO_END};
 // const uint16_t PROGMEM combo_ESC[] = {KC_Q, KC_W, COMBO_END};
 // const uint16_t PROGMEM combo_TAB[] = {KC_A, KC_S, COMBO_END};
-const uint16_t PROGMEM combo_RST[] = {KC_F7, KC_F8, KC_F9, KC_F10, COMBO_END};
+const uint16_t PROGMEM combo_RST[] = {KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, COMBO_END};
 
 combo_t key_combos[] = {
     COMBO(test_LACC, LSFT(KC_LBRC)),
@@ -88,37 +89,9 @@ combo_t key_combos[] = {
     COMBO(combo_TERM, LGUI(LSFT(KC_ENTER))),
     COMBO(combo_HOME, KC_HOME),
     COMBO(combo_END, KC_END),
+    COMBO(combo_RALT, KC_RALT),
     //    COMBO(combo_BS, KC_BACKSPACE),
     //    COMBO(combo_ESC, KC_ESC),
     //    COMBO(combo_TAB, KC_TAB),
     COMBO(combo_RST, QK_BOOT),
 };
-
-void leader_start_user(void)
-{
-  // Do something when the leader key is pressed
-}
-
-void leader_end_user(void)
-{
-  if (leader_sequence_one_key(KC_ESC))
-  {
-    tap_code16(KC_MUTE);
-  }
-  else if (leader_sequence_one_key(KC_S))
-  {
-    SEND_STRING(SS_LCTL("s"));
-  }
-  else if (leader_sequence_one_key(KC_Q))
-  {
-    SEND_STRING(SS_LCTL("q"));
-  }
-  else if (leader_sequence_one_key(KC_W))
-  {
-    SEND_STRING(SS_LCTL("w"));
-  }
-  else if (leader_sequence_one_key(KC_D))
-  {
-    SEND_STRING(SS_LCTL("d"));
-  }
-}
