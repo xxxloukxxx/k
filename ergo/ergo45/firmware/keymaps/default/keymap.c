@@ -72,6 +72,8 @@ const uint16_t PROGMEM test_RACC[] = {KC_K, KC_L, KC_QUOT, COMBO_END};
 const uint16_t PROGMEM combo_TERM[] = {KC_ESC, KC_Q, KC_W, COMBO_END};
 const uint16_t PROGMEM combo_HOME[] = {KC_LEFT, KC_DOWN, COMBO_END};
 const uint16_t PROGMEM combo_END[] = {KC_DOWN, KC_RIGHT, COMBO_END};
+const uint16_t PROGMEM combo_PGUP[] = {KC_LEFT, KC_UP, KC_RIGHT, COMBO_END};
+const uint16_t PROGMEM combo_PGDN[] = {KC_LEFT, KC_DOWN, KC_RIGHT, COMBO_END};
 const uint16_t PROGMEM combo_RALT[] = {KC_COMM, KC_DOT, COMBO_END};
 //
 // const uint16_t PROGMEM combo_BS[] = {KC_O, KC_P, COMBO_END};
@@ -89,6 +91,8 @@ combo_t key_combos[] = {
     COMBO(combo_TERM, LGUI(LSFT(KC_ENTER))),
     COMBO(combo_HOME, KC_HOME),
     COMBO(combo_END, KC_END),
+    COMBO(combo_PGUP, KC_PGUP),
+    COMBO(combo_PGDN, KC_PGDN),
     COMBO(combo_RALT, KC_RALT),
     //    COMBO(combo_BS, KC_BACKSPACE),
     //    COMBO(combo_ESC, KC_ESC),
