@@ -75,6 +75,10 @@ const uint16_t PROGMEM combo_END[] = {KC_DOWN, KC_RIGHT, COMBO_END};
 const uint16_t PROGMEM combo_PGUP[] = {KC_LEFT, KC_UP, KC_RIGHT, COMBO_END};
 const uint16_t PROGMEM combo_PGDN[] = {KC_LEFT, KC_DOWN, KC_RIGHT, COMBO_END};
 const uint16_t PROGMEM combo_RALT[] = {KC_COMM, KC_DOT, COMBO_END};
+const uint16_t PROGMEM combo2_HOME[] = {KC_H, KC_J, COMBO_END};
+const uint16_t PROGMEM combo2_END[] = {KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM combo2_PGUP[] = {KC_H, KC_J, KC_K, COMBO_END};
+const uint16_t PROGMEM combo2_PGDN[] = {KC_J, KC_K, KC_L, COMBO_END};
 //
 // const uint16_t PROGMEM combo_BS[] = {KC_O, KC_P, COMBO_END};
 // const uint16_t PROGMEM combo_ESC[] = {KC_Q, KC_W, COMBO_END};
@@ -93,6 +97,10 @@ combo_t key_combos[] = {
     COMBO(combo_END, KC_END),
     COMBO(combo_PGUP, KC_PGUP),
     COMBO(combo_PGDN, KC_PGDN),
+    COMBO(combo2_HOME, KC_HOME),
+    COMBO(combo2_END, KC_END),
+    COMBO(combo2_PGUP, KC_PGUP),
+    COMBO(combo2_PGDN, KC_PGDN),
     COMBO(combo_RALT, KC_RALT),
     //    COMBO(combo_BS, KC_BACKSPACE),
     //    COMBO(combo_ESC, KC_ESC),
