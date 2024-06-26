@@ -38,13 +38,13 @@ tap_dance_action_t tap_dance_actions[] = {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [QWERTY] = LAYOUT_mrtod(                                                                          //
         KC_ESC, KC_ALPH_R1, /*                                                           */ KC_BSPC,  //
-        KC_LSFT, KC_ALPH_R2, /*                                                  */  KC_SCLN,KC_QUOT, //
-        KC_LCTL, KC_ALPH_R3, /*                                */ KC_COMM, KC_DOT, KC_SLSH, KC_ENT,   //
+        KC_LSFT, KC_ALPH_R2, /*                                                  */  KC_SCLN,KC_ENT, //
+        KC_LCTL, KC_ALPH_R3, /*                                */ KC_COMM, KC_DOT, KC_SLSH ,KC_QUOT,    //
         KC_LALT, TD(TD_GUI), KC_SPACE, MO(NUM), MO(FUNC)),                                            //
 
     [NUM] = LAYOUT_mrtod(                                                                                           //
         KC_GRV, KC_NUMBERS, /*                                                                        */ KC_DEL,    //
-        ___, KC_MEDIA, /*                                            */ ___, KC_MINS, KC_EQL, ___, KC_UP, KC_BSLS,  //
+        ___, KC_MEDIA, /*                                            */ ___, KC_MINS, KC_EQL,KC_TAB, KC_UP, KC_BSLS,  //
         ___, KC_PSCR, KC_SCRL, KC_PAUS, ___, ___, /*          */ ___, KC_LBRC, KC_RBRC, KC_LEFT, KC_DOWN, KC_RIGHT, //
         ___, ___, ___, ___, ___),                                                                                   //
 
