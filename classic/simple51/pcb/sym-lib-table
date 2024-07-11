@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "_keebs")(type "KiCad")(uri "/home/cedric/Documents/Autres/Keyb/k/lib/keebs symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "_mcu")(type "KiCad")(uri "${KIPRJMOD}/kleeb/mcu.kicad_sym")(options "")(descr ""))
+)

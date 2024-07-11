@@ -1,4 +1,4 @@
-(footprint "rp2040-zero-tht" (version 20221018) (generator pcbnew)
+(footprint "rp2040-zero-tht" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole exclude_from_pos_files)
   (fp_text reference "U?" (at 0 -1.27) (layer "F.SilkS") hide
