@@ -57,10 +57,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         /*                 */ ___, ___, ___, ___, /**/ ___, /**/ ___, ___, ___, ___),                 //
 
     [NUMPAD] = LAYOUT_mrtod(                                                          //
-        TO(QWERTY), KC_7, KC_8, KC_9, KC_PSLS, KC_PAST, ___, ___, ___, ___, ___, ___, //
-        ___, KC_4, KC_5, KC_6, KC_PMNS, KC_PPLS, ___, ___, ___, ___, ___, ___,        //
-        ___, KC_1, KC_2, KC_3, KC_DOT, KC_NO, ___, ___, ___, ___, ___, ___,           //
-        ___, ___, KC_0, KC_ENT, ___, ___, ___, ___, ___)                              //
+        TO(QWERTY), KC_P7, KC_P8, KC_P9, KC_PSLS, KC_PAST, ___, ___, ___, ___, ___, KC_NUM, //
+        ___, KC_P4, KC_P5, KC_P6, KC_PMNS, KC_PPLS, ___, ___, ___, ___, ___, ___,        //
+        ___, KC_P1, KC_P2, KC_P3, KC_PDOT, KC_NO, ___, ___, ___, ___, ___, ___,           //
+        ___, ___, KC_P0, KC_PENT, ___, ___, ___, ___, ___)                              //
 };
 
 const uint16_t PROGMEM test_LACC[] = {KC_A, KC_S, KC_D, COMBO_END};
