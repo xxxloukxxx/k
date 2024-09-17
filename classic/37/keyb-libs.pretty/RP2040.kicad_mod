@@ -38,4 +38,9 @@
   (pad "20" thru_hole circle (at -7.62 -5.08) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask) (tstamp fb2e030a-cfc1-425d-b2e0-e245df8d488d))
   (pad "21" thru_hole circle (at -7.62 -7.62) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask) (tstamp e763eeb3-7f59-4e45-b643-7e891b7c6a29))
   (pad "22" thru_hole circle (at -7.62 -10.16) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask) (tstamp 31bab911-fe4b-4ccd-b7a6-cf911866d454))
+  (model "${KIPRJMOD}/rp2040-zero.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
