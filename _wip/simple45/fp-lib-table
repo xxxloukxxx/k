@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "keyb-libs")(type "KiCad")(uri "/home/cedric/Documents/Autres/Keyb/k/classic/37/keyb-libs.pretty")(options "")(descr ""))
+)
