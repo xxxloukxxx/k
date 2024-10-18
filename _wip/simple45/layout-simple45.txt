@@ -1,4 +1,0 @@
-[{x:0.25},"~\n`","Q","W","E","R","T","Y","U","I","O","P",{w:1.5},"|\n\\"],
-[{w:1.5},"Tab","A","S","D","F","G","H","J","K","L","\"\n'",{w:1.75},"Caps Lock"],
-[{w:2},"Backspace","Z","X","C","V","B","N","M","<\n,",">\n.",{a:7},"<i class='kb kb-Arrows-Up'></i>",{w:1.25},""],
-[{x:0.5,a:4,w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:2.25},"",{a:4,w:2.25},"Enter",{w:1.25},"Alt",{a:7},"<i class='kb kb-Arrows-Left'></i>","<i class='kb kb-Arrows-Down'></i>","<i class='kb kb-Arrows-Right'></i>"]
