@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "keyb-libs")(type "KiCad")(uri "${KIPRJMOD}/keyb-libs.pretty")(options "")(descr ""))
-)
