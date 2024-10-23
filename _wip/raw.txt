@@ -1,0 +1,64 @@
+units:
+  # Proxy Spacing Variables
+  kx: u
+  ky: u
+  # Padding Variables
+  px: kx + 2
+  py: ky + 2
+
+points:
+  zones:
+    matrix:
+      key.width: 1kx
+      key.height: 1kx
+      anchor:
+        rotate: -10
+      columns:
+        pink:
+        pinky:
+          key.stagger: 0kx
+        ring:
+          key.stagger: 0.5kx
+          rows.mod.shift: [0,-.5ky]
+          rows.bottom.shift: [0,.5ky]
+        middle:
+          key.stagger: .25kx
+          rows.mod.skip: true
+        index:
+          key.stagger: -.15kx
+          rows.mod.skip: true
+        inner:
+          key.stagger: -.1kx
+          rows.mod.skip: true
+      rows:
+        mod:
+        bottom:
+        home:
+        top:
+    thumbfan:
+      key.width: 1kx
+      key.height: 1kx
+      anchor:
+        ref: matrix_ring_mod
+        shift: [1.5kx, 0.25ky]
+      columns:
+        near:
+        home:
+          key:
+            splay: -10
+            shift: [.2kx,-.07kx]
+        far:
+          key:
+            height: 1.0kx
+            splay: -15
+            shift: [0.45kx,-.15kx]
+      rows:
+        thumb:
+  mirror:
+    ref: matrix_pinky_home
+    distance: 10.25kx
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [1.5kx, 1.5ky]

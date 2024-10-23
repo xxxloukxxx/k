@@ -1,0 +1,85 @@
+20170619006817
+lib
+EC11-MX-Alps
+
+
+0
+11
+6
+lib
+Kailh_socket_MX_reversible
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+lib
+MCU_RP2040_Zero_34
+
+
+0
+23
+23
+lib
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+lib
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+lib
+RotaryEncoder_Alps_EC11E_Vertical_H20mm
+Alps rotary encoder, EC12E... without switch (pins are dummy), vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+4
+lib
+RotaryEncoder_Alps_EC11E_Vertical_H20mm_CircularMountingHoles
+Alps rotary encoder, EC12E... without switch (pins are dummy), vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+4
+lib
+SW_MX_reversible
+MX-style keyswitch, reversible
+MX,cherry,gateron,kailh
+0
+4
+2
+lib
+SW_MX_reversible_2
+MX-style keyswitch, reversible
+MX,cherry,gateron,kailh
+0
+4
+2
+lib
+SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+lib
+TRRS-PJ-320A_reversible
+
+
+0
+5
+4
+lib
+TRRS-PJ-320A_reversible_2
+
+
+0
+8
+4
