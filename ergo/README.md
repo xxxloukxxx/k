@@ -4,7 +4,6 @@
 
 ![](./ergo41/pcb/ergo41-pcb.png)
 ![](./ergo45/pcb/ergo45-pcb.png)
-![](./ergo45/v.rpi/pcb/ergo45-pcb.png)
 ![](./ergo46/pcb/ergo46-pcb.png)
 ![](./ergo46.1/pcb/ergo46.1-pcb.png)
 

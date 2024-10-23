@@ -11,8 +11,8 @@
 
 ## Madeline 36/38
 
-![](./madeline38/pcb/madeline38-pcb.png)
 ![](./madeline36/pcb/madeline36-pcb.png)
+![](./madeline38/pcb/madeline38-pcb.png)
 
 ## Classic 69
 
