@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--117.8927147976384
+-102.7770848009054
  20
--51.670139782277
+-40.14062952769644
  30
 0
   9
 $EXTMAX
  10
-117.8927147976385
+105.5483663026731
  20
-60
+41.58782797230356
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-60.00758478243134
+15.80610993212862
  22
-38.97598754357277
+12.09722010156335
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-147.22118067201
+51.09255710517014
  41
-1.62778505897772
+1.14246947082768
  42
 50
  43
@@ -2235,7 +2235,7 @@ AcDbLayerTableRecord
   2
 0
  70
-    0
+    1
  62
     7
   6
@@ -2257,7 +2257,7 @@ AcDbLayerTableRecord
   2
 edge
  70
-    0
+    1
  62
     2
   6
@@ -2279,7 +2279,7 @@ AcDbLayerTableRecord
   2
 ext1
  70
-    0
+    1
  62
   171
 420
@@ -2303,7 +2303,7 @@ AcDbLayerTableRecord
   2
 ext2
  70
-    0
+    1
  62
   160
 420
@@ -2327,7 +2327,7 @@ AcDbLayerTableRecord
   2
 ext3
  70
-    0
+    1
  62
     5
   6
@@ -2349,7 +2349,7 @@ AcDbLayerTableRecord
   2
 int
  70
-    0
+    1
  62
     6
   6
@@ -2371,7 +2371,7 @@ AcDbLayerTableRecord
   2
 keycap
  70
-    0
+    1
  62
    16
 420
@@ -2395,7 +2395,7 @@ AcDbLayerTableRecord
   2
 percage
  70
-    0
+    1
  62
     4
   6
@@ -2461,7 +2461,7 @@ AcDbLayerTableRecord
   2
 rpi1-decoupe
  70
-    0
+    1
  62
    96
 420
@@ -12733,9 +12733,9 @@ AcDbPolyline
  20
 60
  42
--0.414213562373094
+-0.4142135623730929
  10
-9
+8.999999999999998
  20
 59.5
  10
@@ -12764,6 +12764,30 @@ AcDbPolyline
 59.5
  42
 -0.414213562373095
+  0
+LINE
+  5
+1E7
+100
+AcDbEntity
+  8
+placement
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-9
+ 20
+16.83
+ 11
+9
+ 21
+-6.67
   0
 ENDSEC
   0
@@ -12797,7 +12821,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-1E7
+1E8
 100
 AcDbPlotSettings
   6
