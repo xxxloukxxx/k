@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "_mcu")(type "KiCad")(uri "${KIPRJMOD}/kleeb/mcu.pretty")(options "")(descr ""))
+  (lib (name "_mx")(type "KiCad")(uri "${KIPRJMOD}/../../lib/Switch_Keyboard_Cherry_MX.pretty")(options "")(descr ""))
+)

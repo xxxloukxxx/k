@@ -1,0 +1,48 @@
+{
+    "keyboard_name": "split48s-oneside",
+    "manufacturer": "louk",
+    "url": "",
+    "maintainer": "WaM",
+    "usb": {
+        "pid": "0xDFFF",
+        "vid": "0xDAEF",
+        "device_version": "4.1.1"
+    },
+    "matrix_pins": {
+        "cols": ["GP9", "GP10", "GP11", "GP12", "GP13","GP15"],
+        "rows": ["GP29", "GP28", "GP27", "GP26"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [0, 4], "x": 4, "y": 0 },
+                { "matrix": [0, 5], "x": 5, "y": 0 },
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+                { "matrix": [1, 3], "x": 3, "y": 1 },
+                { "matrix": [1, 4], "x": 4, "y": 1 },
+                { "matrix": [1, 5], "x": 5, "y": 1 },
+                { "matrix": [2, 0], "x": 0, "y": 2 },
+                { "matrix": [2, 1], "x": 1, "y": 2 },
+                { "matrix": [2, 2], "x": 2, "y": 2 },
+                { "matrix": [2, 3], "x": 3, "y": 2 },
+                { "matrix": [2, 4], "x": 4, "y": 2 },
+                { "matrix": [2, 5], "x": 5, "y": 2 },
+                { "matrix": [3, 0], "x": 0, "y": 3 },
+                { "matrix": [3, 1], "x": 1, "y": 3 },
+                { "matrix": [3, 2], "x": 1, "y": 3 },
+                { "matrix": [3, 3], "x": 2, "y": 3 },
+                { "matrix": [3, 4], "x": 3, "y": 3 },
+                { "matrix": [3, 5], "x": 4, "y": 3 }
+            ]
+        }
+    }
+}

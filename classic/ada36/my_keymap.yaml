@@ -1,0 +1,38 @@
+layout:
+  qmk_keyboard: tominabox1/adalyn
+  layout_name: LAYOUT
+layers:
+  BASE:
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - [ A, S, D,  F, G, H,  J, K, L, QUOT]
+  - [{t: Z , h: LSFT}, X, C, V, B, N, M, ',', ., {t: '/', h: RSFT}]
+  - [LCTL, LGUI, {t: SPC, h: RAISE}, {t: SPC, h: LOWER}, LALT,  FN]
+
+  LOWER:
+  - [1,2,3,4,5,'-','=',DEL,UP,BSPC]
+  - [6,7,8,9,0,'\',';',LFT,DN,RGT]
+  - [' ','(',')','[',']',' ',' ',' ',' ',' ']
+  - [' ',' ',' ',{type: held},' ',' ']
+
+  RAISE:
+  - ['!','@','#','$','%','_','+',' ',PGUP,'~']
+  - ['^','&','*','(',')','|',':',' ',PGDN,'`']
+  - [' ',' ',' ',' ',' ','{ ','} ',' ',' ',' ']
+  - [' ',' ',{type: held},' ',' ',' ']
+
+  FN:
+  - [F1, F2, F3, F4, F5, PSCR, SCRL, PAUS, ' ', KC_CAPS]
+  - [F6, F7, F8, F9, F10, F11, F12, ' ', ' ', ' ']
+  - [MUTE,VOLD,VOLU,' ',' ',' ', ' ',' ',' ',' ']
+  - [' ',' ',' ',' ',' ',{type: held}]
+
+combos:
+  - {p: [0, 1], k: ESC, l: [BASE]}
+  - {p: [18, 19], k: ENT, l: [BASE]}
+  - {p: [18, 19], k: END, l: [LOWER], a: top}
+  - {p: [17, 18], k: HOME, l: [LOWER], a: top}
+  - {p: [17, 18,19], k: PGDN, l: [LOWER], a: bottom}
+  - {p: [7, 8,9], k: PGUP, l: [LOWER], a: top}
+  - {p: [11, 12], k: TAB, l: [BASE]}
+  - {p: [27, 28], k: RALT, l: [BASE]}
+  - {p: [0,1,2,3,4], k: RST, l: [FN], a: top}
