@@ -25,7 +25,7 @@ enum layers { _BASE, _RAISE, _LOWER, _FN };
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(                                                               //
         /*  */ KC_Q, KC_W, KC_E, KC_R, KC_T, /* */ KC_Y, KC_U, KC_I, KC_O, KC_P,    //
-        /*  */ KC_A, KC_S, KC_D, KC_F, KC_G, /* */ KC_H, KC_J, KC_K, KC_L, KC_QUOT, //
+        /*  */ LCTL_T(KC_A), KC_S, KC_D, KC_F, KC_G, /* */ KC_H, KC_J, KC_K, KC_L, KC_QUOT, //
         /*    */ _SZ, _CX, _AC, KC_V, KC_B, /* */ KC_N, KC_M, _ACOM, _CDOT, _SS,    //
         /*       */ KC_LCTL, LGUI_T(KC_ESC), RAISE, /* */ LOWER, KC_LALT, FN,              //
         ___, KC_MUTE),                                                              //
