@@ -25,6 +25,10 @@
 
 ![pcb](./adeline36/pcb/adeline36-pcb.png)
 
+## Lettre 34
+
+![pcb](./lettre34/pcb/lettre34-pcb.png)
+
 ## Classic 69
 
 ![pcb](./classic69/pcb/classic69-pcb.png)
