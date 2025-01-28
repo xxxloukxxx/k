@@ -6,14 +6,11 @@ enum layers { _BASE, _RAISE, _LOWER, _FN };
 
 #define LOWER LT(_LOWER, KC_SPC)
 #define RAISE LT(_RAISE, KC_SPC)
-#define FN LT(_FN,KC_ENT)
-
-#define _SZ LSFT_T(KC_Z)
-#define _CX LCTL_T(KC_X)
-#define _AC LALT_T(KC_C)
-#define _CDOT LCTL_T(KC_DOT)
-#define _ACOM LALT_T(KC_COMMA)
-#define _SS RSFT_T(KC_SLSH)
+#define FN LT(_FN, KC_ENT)
+#define _S(x) LSFT_T(x)
+#define _C(x) LCTL_T(x)
+#define _A(x) LALT_T(x)
+#define _G(x) LGUI_T(x)
 
 #define KC_BSPC KC_BACKSPACE
 #define KC_LFT KC_LEFT
@@ -23,12 +20,12 @@ enum layers { _BASE, _RAISE, _LOWER, _FN };
 #include QMK_KEYBOARD_H
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [_BASE] = LAYOUT(                                                               //
-        /*  */ KC_Q, KC_W, KC_E, KC_R, KC_T, /* */ KC_Y, KC_U, KC_I, KC_O, KC_P,    //
-        /*  */ LCTL_T(KC_A), KC_S, KC_D, KC_F, KC_G, /* */ KC_H, KC_J, KC_K, KC_L, KC_QUOT, //
-        /*    */ _SZ, _CX, _AC, KC_V, KC_B, /* */ KC_N, KC_M, _ACOM, _CDOT, _SS,    //
-        /*       */ KC_LCTL, LGUI_T(KC_ESC), RAISE, /* */ LOWER, KC_LALT, FN,              //
-        ___, KC_MUTE),                                                              //
+    [_BASE] = LAYOUT(                                                                                             //
+        /*              */ KC_Q, KC_W, KC_E, KC_R, KC_T, /* */ KC_Y, KC_U, KC_I, KC_O, KC_P,                      //
+        /*              */ KC_A, KC_S, KC_D, KC_F, KC_G, /* */ KC_H, KC_J, KC_K, KC_L, KC_QUOT,                   //
+        /*  */ _S(KC_Z), _C(KC_X), _A(KC_C), KC_V, KC_B, /* */ KC_N, KC_M, _A(KC_COMMA), _C(KC_DOT), _S(KC_SLSH), //
+        /*             */ _C(KC_TAB), _G(KC_ESC), RAISE, /* */ LOWER, _A(KC_BSPC), FN,                            //
+        ___, KC_MUTE),                                                                                            //
 
     [_LOWER] = LAYOUT(                                                                                //
         /*            */ KC_1, KC_2, KC_3, KC_4, KC_5, /* */ KC_MINS, KC_EQL, KC_DEL, KC_UP, KC_BSPC, //
