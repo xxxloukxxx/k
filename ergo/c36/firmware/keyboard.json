@@ -1,15 +1,15 @@
 {
-  "keyboard_name": "ada36",
-  "manufacturer": "xxxloukxxx",
+  "keyboard_name": "c36",
+  "manufacturer": "10v314c3",
   "url": "",
-  "maintainer": "WaM",
+  "maintainer": "Wam",
   "usb": {
-    "vid": "0x0ADA",
-    "pid": "0x0036",
-    "device_version": "2.7.1"
+    "vid": "0x9876",
+    "pid": "0x0C36",
+    "device_version": "1.1.1"
   },
   "matrix_pins": {
-    "cols": ["GP4", "GP5", "GP6", "GP7", "GP8","GP14", "GP15", "GP26" ,"GP27", "GP28"]
+    "cols": ["GP4", "GP5", "GP6", "GP7", "GP8","GP14", "GP15", "GP26" ,"GP27", "GP28"],
     "rows": ["GP13", "GP12", "GP10", "GP9"]
   },
   "diode_direction": "COL2ROW",
