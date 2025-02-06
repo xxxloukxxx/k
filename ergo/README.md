@@ -1,5 +1,9 @@
 # Ergo
 
+## C36
+
+![](./c36/pcb/c36-pcb.png)
+
 ## Ergo 41/45/46/46.1/47
 
 ![](./ergo41/pcb/ergo41-pcb.png)
