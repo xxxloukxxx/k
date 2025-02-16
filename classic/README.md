@@ -21,6 +21,10 @@
 ![pcb](./ada36/pcb/ada36-pcb.png)
 ![pcb](./e36/pcb/e36-pcb.png)
 
+## Ada 38
+
+![pcb](./ada38/pcb/ada38-pcb.png)
+
 ## Adeline 36
 
 ![pcb](./adeline36/pcb/adeline36-pcb.png)
