@@ -1,0 +1,17 @@
+[{y:0.24,x:0.3,t:"#ff0000\n#0000ff\n\n#008800\n\n#545454\n\n\n\n#000000",a:0,f:2},"!\n1\n\nF1\n\nESC\n\n\n\nQ",{x:8.9,t:"#ff0000\n#0000ff\n\n\n\n\n\n\n\n#000000",a:4,w:1.25},"~\nBSP\n\n\n\n\n\n\n\nP"],
+[{x:0.16,t:"#ff0000\n#0000ff\n\n#008800\n\n\n\n\n\n#000000",w:1.25},"^\n6\n\nF6\n\n\n\n\n\nA",{x:9.18,t:"#ff0000\n#0000ff\n\n\n#545454\n\n\n\n\n#000000",a:0},"GRV\nRGT\n\n\nENT\n\n\n\n\nQUOT"],
+[{x:0.01,t:"#ff0000\n\n\n#008800\n\n\n\n\n\n#000000",a:4,w:1.75},"\n\n\nMUTE\n\n\n\n\n\nLSFT_T(Z)"],
+[{x:0.1,t:"#000000",a:7},"LCTL"],
+[{y:0.75,x:2.5,c:"#a83939",a:4,f:3,w:4.25,h:1.25,d:true},"Extra combo :<br><ul><li>LFT+DN=HOME<li>DN+RGT=END<li>LFT+DN+RGT=PGDN<li>DEL+UP+BSP=PGUP</ul>",{x:-1,w:4.25,h:1.25,d:true},"Optionnal combo :<br><ul><li>A+S=TAB<li>F1+F2+F3+F4+F5=RST</ul>"],
+[{y:-0.75,c:"#cccccc",t:"#ff0000\n#0000ff\n\n#008800\n#545454\n#545454\n\n\n\n#000000",a:0,f:2,w:2.5},"RAISE\nLOWER\n\nFN\nCOMBO\nCOMBO\n\n\n\nQ"],
+[{rx:6.25,y:2.24,x:3.98,t:"#000000",a:7,w:1.5},"LSFT_T(\\)"],
+[{x:4.38,c:"#008800"},"MO(FN)"],
+[{r:8,rx:0,x:1.44,c:"#cccccc",t:"#ff0000\n#0000ff\n\n#008800\n#545454\n\n\n\n\n#000000",a:0},"@\n2\n\nF2\nESC\n\n\n\n\nW",{t:"#ff0000\n#0000ff\n\n#008800\n\n\n\n\n\n#000000",a:4},"#\n3\n\nF3\n\n\n\n\n\nE","$\n4\n\nF4\n\n\n\n\n\nR","%\n5\n\nF5\n\n\n\n\n\nT"],
+[{x:1.69,t:"#ff0000\n#0000ff\n\n#008800\n\n#545454\n\n\n\n#000000",a:0},"&\n7\n\nF7\n\nTAB\n\n\n\nS",{t:"#ff0000\n#0000ff\n\n#008800\n#545454\n\n\n\n\n#000000"},"*\n8\n\nF8\nTAB\n\n\n\n\nD",{t:"#ff0000\n#0000ff\n\n#008800\n\n\n\n\n\n#000000",a:4},"(\n9\n\nF9\n\n\n\n\n\nF",")\n0\n\nF10\n\n\n\n\n\nG"],
+[{x:2.19},"\n(\n\nVOLD\n\n\n\n\n\nX","\n)\n\nVOLU\n\n\n\n\n\nC",{t:"#ff0000\n#0000ff\n\n\n\n\n\n\n\n#000000"},"\n[\n\n\n\n\n\n\n\nV","\n]\n\n\n\n\n\n\n\nB"],
+[{x:2.94,t:"#000000",a:7},"LGUI",{c:"#ff0000",w:2.25},"LT(RAISE,SPACE)"],
+[{r:-8,y:-2.34,x:5.94,c:"#cccccc",t:"#ff0000\n#0000ff\n\n\n\n\n\n\n\n#000000",a:4},"_\n-\n\n\n\n\n\n\n\nY","+\n=\n\n\n\n\n\n\n\nU","\nDEL\n\n\n\n\n\n\n\nI","PGUP\nUP\n\n\n\n\n\n\n\nO"],
+[{x:6.19,t:"#ff0000\n#0000ff\n\n#008800\n\n\n\n\n\n#000000"},"|\n\\\n\nF11\n\n\n\n\n\nH",":\n;\n\nF12\n\n\n\n\n\nJ",{t:"#ff0000\n#0000ff\n\n\n\n\n\n\n\n#000000"},"\nLFT\n\n\n\n\n\n\n\nK",{t:"#ff0000\n#0000ff\n\n\n\n#545454\n\n\n\n#000000",a:0},"PGDN\nDN\n\n\n\nENT\n\n\n\nL"],
+[{x:5.69,t:"#ff0000\n\n\n\n\n\n\n\n\n#000000",a:4},"{\n\n\n\n\n\n\n\n\nN","}\n\n\n\n\n\n\n\n\nM",{t:"#000000\n\n\n\n\n#545454",a:3},",\n\n\n\n\nRALT",{t:"#000000\n\n\n\n#545454"},".\n\n\n\nRALT"],
+[{x:5.69,c:"#0000ff",t:"#ffffff",a:7,w:2},"LT(LOWER,SPACE)",{c:"#cccccc",t:"#000000"},"LALT"]
+

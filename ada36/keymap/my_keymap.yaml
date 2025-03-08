@@ -1,0 +1,39 @@
+layout:
+  qmk_keyboard: tominabox1/adalyn
+  layout_name: LAYOUT
+layers:
+  BASE:
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - [ A, S, D,  F, G, H,  J, K, L, QUOT]
+  - [{t: Z , h: LSFT}, {t: X, h: LCTL}, {t: C, h: LALT}, V, B, N, M, {t: ',' , h: LALT}, {t: . , h: LCTL}, {t: '/', h: RSFT}]
+  - [{t: TAB, h: LCTL}, {t: ESC, h: LGUI}, {t: SPC, h: RAISE}, {t: SPC, h: LOWER}, {t: BSPC, h: LALT}, {t: ENT, h: FN}]
+
+  LOWER:
+  - [1,2,3,4,5,'-','=',DEL,UP,BSPC]
+  - [6,7,8,9,0,'\',';',LFT,DN,RGT]
+  - [' ','(',')','[',']',' ',' ',' ',' ',TAB]
+  - [' ',' ',' ',{type: held},' ',' ']
+
+  RAISE:
+  - ['!','@','#','$','%','_','+',' ','','~']
+  - ['^','&','*','(',')','|',':',' ','','`']
+  - [' ',' ',' ',' ',' ','{ ','} ',' ',' ',' ']
+  - [' ',' ',{type: held},' ',' ',' ']
+
+  FN:
+  - [F1, F2, F3, F4, F5, PSCR, SCRL, PAUS, INS, KC_CAPS]
+  - [F6, F7, F8, F9, F10, F11, F12, ' ', ' ', ' ']
+  - [MUTE,VOLD,VOLU,' ',' ',' ', ' ',' ',' ',' ']
+  - [' ',' ',' ',' ',' ',{type: held}]
+
+combos:
+  - {p: [0, 1], k: ESC, l: [BASE]}
+  - {p: [18, 19], k: ENT, l: [BASE]}
+  - {p: [18, 19], k: END, l: [LOWER], a: top}
+  - {p: [17, 18], k: HOME, l: [LOWER], a: top}
+  - {p: [17, 18,19], k: PGDN, l: [LOWER], a: bottom}
+  - {p: [7, 8,9], k: PGUP, l: [LOWER], a: top}
+  - {p: [10, 11], k: TAB, l: [BASE]}
+  - {p: [11, 12], k: TAB, l: [BASE]}
+  - {p: [27, 28], k: RALT, l: [BASE]}
+  - {p: [0,1,2,3,4], k: RST, l: [FN], a: top}
