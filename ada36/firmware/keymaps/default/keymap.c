@@ -1,12 +1,12 @@
 #include "quantum.h"
 
-enum layers { _BASE, _RAISE, _LOWER, _FN, _NUMPAD };
+enum layers { _BASE, _RAISE, _LOWER, _FN, _BOTH };
 
 #define ___ KC_TRNS
 
 #define LOWER LT(_LOWER, KC_SPC)
 #define RAISE LT(_RAISE, KC_SPC)
-#define NUMPAD TG(_NUMPAD)
+#define BOTH MO(_BOTH)
 #define FN LT(_FN, KC_ENT)
 #define _S(x) LSFT_T(x)
 #define _C(x) LCTL_T(x)
@@ -21,25 +21,25 @@ enum layers { _BASE, _RAISE, _LOWER, _FN, _NUMPAD };
 #include QMK_KEYBOARD_H
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [_BASE] = LAYOUT(                                                                                             //
-        /*              */ KC_Q, KC_W, KC_E, KC_R, KC_T, /* */ KC_Y, KC_U, KC_I, KC_O, KC_P,                      //
-        /*              */ KC_A, KC_S, KC_D, KC_F, KC_G, /* */ KC_H, KC_J, KC_K, KC_L, KC_QUOT,                   //
-        /*  */ _S(KC_Z), _C(KC_X), _A(KC_C), KC_V, KC_B, /* */ KC_N, KC_M, _A(KC_COMMA), _C(KC_DOT), _S(KC_SLSH), //
-        /*             */ _C(KC_TAB), KC_LGUI, RAISE, /* */ LOWER, _A(KC_BSPC), FN,                               //
-        ___, KC_MUTE),                                                                                            //
+    [_BASE] = LAYOUT(                                                                             //
+        /*              */ KC_Q, KC_W, KC_E, KC_R, KC_T, /* */ KC_Y, KC_U, KC_I, KC_O, KC_P,      //
+        /*              */ KC_A, KC_S, KC_D, KC_F, KC_G, /* */ KC_H, KC_J, KC_K, KC_L, KC_QUOT,   //
+        /*  */ _S(KC_Z), KC_X, KC_C, KC_V, KC_B, /* */ KC_N, KC_M, KC_COMMA, KC_DOT, _S(KC_SLSH), //
+        /*             */ _C(KC_TAB), KC_LGUI, RAISE, /* */ LOWER, KC_LALT, FN,                   //
+        ___, KC_MUTE),                                                                            //
 
     [_LOWER] = LAYOUT(                                                                                //
         /*            */ KC_1, KC_2, KC_3, KC_4, KC_5, /* */ KC_MINS, KC_EQL, KC_DEL, KC_UP, KC_BSPC, //
         /*            */ KC_6, KC_7, KC_8, KC_9, KC_0, /* */ KC_BSLS, KC_SCLN, KC_LFT, KC_DN, KC_RGT, //
-        /* */ ___, KC_LPRN, KC_RPRN, KC_LBRC, KC_RBRC, /* */ ___, ___, ___, ___, KC_TAB,              //
-        /*                           */ ___, ___, ___, /* */ ___, ___, ___,                        //
+        /* */ ___, KC_LPRN, KC_RPRN, KC_LBRC, KC_RBRC, /* */ ___, ___, KC_HOME, ___, KC_END,          //
+        /*                           */ ___, ___, BOTH, /* */ ___, ___, ___,                          //
         ___, KC_MUTE),                                                                                //
 
     [_RAISE] = LAYOUT(                                                                                 //
         /*    */ KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, /* */ KC_UNDS, KC_PLUS, ___, ___, KC_TILDE, //
         /* */ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, /* */ KC_PIPE, KC_COLN, ___, ___, KC_GRV,   //
         /*                     */ ___, ___, ___, ___, ___, /* */ KC_LCBR, KC_RCBR, ___, ___, ___,      //
-        /*                               */ ___, ___, ___, /* */ ___, ___, ___,                     //
+        /*                               */ ___, ___, ___, /* */ BOTH, ___, ___,                       //
         ___, KC_MUTE),                                                                                 //
 
     [_FN] = LAYOUT(                                                                                  //
@@ -49,12 +49,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         /*                       */ ___, ___, ___, /* */ ___, ___, ___,                              //
         ___, KC_MUTE),                                                                               //
 
-    [_NUMPAD] = LAYOUT(                                                           //
-        /* */ ___, KC_P7, KC_P8, KC_P9, ___, /* */ ___, ___, ___, ___, ___, //
-        /* */ ___, KC_P4, KC_P5, KC_P6, ___, /* */ ___, ___, ___, ___, ___,       //
-        /* */ ___, KC_P1, KC_P2, KC_P3, ___, /* */ ___, ___, ___, ___, ___,       //
-        /*           */ ___, KC_P0, ___, /* */ ___, ___, ___,                     //
-        ___, KC_MUTE),                                                            //
+    [_BOTH] = LAYOUT(                                                            //
+        /* */ ___, ___, ___, ___, ___, /* */ ___, ___, ___, KC_PGUP, ___,        //
+        /* */ ___, ___, ___, ___, ___, /* */ ___, ___, KC_HOME, KC_PGDN, KC_END, //
+        /* */ ___, ___, ___, ___, ___, /* */ ___, ___, ___, ___, ___,            //
+        /*           */ ___, ___, ___, /* */ ___, ___, ___,                      //
+        ___, KC_MUTE),                                                           //
+
 };
 
 // COMBO is everything !
@@ -91,6 +92,6 @@ const uint16_t PROGMEM encoder_map[5][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [_LOWER] /*  */ = {ENCODER_CCW_CW(KC_PGUP, KC_PGDN), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)}, //
     [_RAISE] /*  */ = {ENCODER_CCW_CW(KC_UP, KC_DOWN), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},   //
     [_FN] /*     */ = {ENCODER_CCW_CW(KC_UP, KC_DOWN), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},   //
-    [_NUMPAD] /* */ = {ENCODER_CCW_CW(KC_UP, KC_DOWN), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},   //
+    [_BOTH] /* */ = {ENCODER_CCW_CW(KC_UP, KC_DOWN), ENCODER_CCW_CW(KC_VOLD, KC_VOLU)},     //
 };
 #endif
