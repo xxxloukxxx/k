@@ -35,12 +35,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         /*                           */ ___, ___, BOTH, /* */ ___, ___, ___,                          //
         ___, KC_MUTE),                                                                                //
 
-    [_RAISE] = LAYOUT(                                                                                 //
-        /*    */ KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, /* */ KC_UNDS, KC_PLUS, ___, ___, KC_TILDE, //
-        /* */ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, /* */ KC_PIPE, KC_COLN, ___, ___, KC_GRV,   //
-        /*                     */ ___, ___, ___, ___, ___, /* */ KC_LCBR, KC_RCBR, ___, ___, ___,      //
-        /*                               */ ___, ___, ___, /* */ BOTH, ___, ___,                       //
-        ___, KC_MUTE),                                                                                 //
+    [_RAISE] = LAYOUT(                                                                                        //
+        /*    */ KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, /* */ KC_UNDS, KC_PLUS, KC_HOME, KC_END, KC_TILDE, //
+        /* */ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, /* */ KC_PIPE, KC_COLN, ___, ___, KC_GRV,          //
+        /*                     */ ___, ___, ___, ___, ___, /* */ KC_LCBR, KC_RCBR, ___, ___, ___,             //
+        /*                               */ ___, ___, ___, /* */ BOTH, ___, ___,                              //
+        ___, KC_MUTE),                                                                                        //
 
     [_FN] = LAYOUT(                                                                                  //
         /*   */ KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, /* */ KC_PSCR, KC_SCRL, KC_PAUS, KC_INS, KC_CAPS, //
