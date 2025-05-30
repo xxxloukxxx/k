@@ -69,10 +69,10 @@ const uint16_t PROGMEM combo_tab[] = { KC_S, KC_D, COMBO_END };
 /* const uint16_t PROGMEM combo_ta2[] = { KC_S, KC_A, COMBO_END }; */
 const uint16_t PROGMEM combo_ent[] = { KC_L, KC_QUOT, COMBO_END };
 const uint16_t PROGMEM combo_alt[] = { KC_DOT, KC_COMMA, COMBO_END };
-const uint16_t PROGMEM combo_hom[] = { KC_LEFT, KC_DOWN, COMBO_END };
-const uint16_t PROGMEM combo_end[] = { KC_DOWN, KC_RIGHT, COMBO_END };
-const uint16_t PROGMEM combo_pgu[] = { KC_DEL, KC_BSPC, KC_UP, COMBO_END };
-const uint16_t PROGMEM combo_pgd[] = { KC_LEFT, KC_DOWN, KC_RIGHT, COMBO_END };
+/* const uint16_t PROGMEM combo_hom[] = { KC_LEFT, KC_DOWN, COMBO_END }; */
+/* const uint16_t PROGMEM combo_end[] = { KC_DOWN, KC_RIGHT, COMBO_END }; */
+/* const uint16_t PROGMEM combo_pgu[] = { KC_DEL, KC_BSPC, KC_UP, COMBO_END }; */
+/* const uint16_t PROGMEM combo_pgd[] = { KC_LEFT, KC_DOWN, KC_RIGHT, COMBO_END }; */
 const uint16_t PROGMEM combo_rst[] = { KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, COMBO_END };
 //
 combo_t key_combos[] = {
@@ -82,9 +82,15 @@ combo_t key_combos[] = {
     /* COMBO(combo_ta2, KC_TAB),  // */
     COMBO(combo_ent, KC_ENT),  //
     COMBO(combo_alt, KC_RALT), //
-    COMBO(combo_hom, KC_HOME), //
-    COMBO(combo_end, KC_END),  //
-    COMBO(combo_pgu, KC_PGUP), //
-    COMBO(combo_pgd, KC_PGDN), //
+    /* COMBO(combo_hom, KC_HOME), // */
+    /* COMBO(combo_end, KC_END),  // */
+    /* COMBO(combo_pgu, KC_PGUP), // */
+    /* COMBO(combo_pgd, KC_PGDN), // */
     COMBO(combo_rst, QK_BOOT)  //
-};
+}
+
+bool process_record_user(uint16_t keycode, keyrecord_t* record) {
+    update_tri_layer(_LOWER, _RAISE, _BOTH);
+    return true;
+}
+;
