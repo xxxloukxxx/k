@@ -36,15 +36,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         /*            */ KC_1, KC_2, KC_3, KC_4, KC_5, /* */ KC_MINS, KC_EQL, KC_DEL, KC_UP, KC_BSPC, //
         /*            */ KC_6, KC_7, KC_8, KC_9, KC_0, /* */ KC_BSLS, KC_SCLN, KC_LFT, KC_DN, KC_RGT, //
         /* */ ___, KC_LPRN, KC_RPRN, KC_LBRC, KC_RBRC, /* */ ___, ___, KC_HOME, ___, KC_END,          //
-        /*                           */ ___, ___, BOTH, /* */ ___, ___, ___                           //
+        /*                           */ ___, ___, ___, /* */ ___, ___, ___                           //
         ),                                                                                            //
 
-    [_RAISE] = LAYOUT(                                                                                 //
-        /*    */ KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, /* */ KC_UNDS, KC_PLUS, ___, ___, KC_TILDE, //
-        /* */ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, /* */ KC_PIPE, KC_COLN, ___, ___, KC_GRV,   //
-        /*                     */ ___, ___, ___, ___, ___, /* */ KC_LCBR, KC_RCBR, ___, ___, ___,      //
-        /*                               */ ___, ___, ___, /* */ BOTH, ___, ___                        //
-        ),                                                                                             //
+    [_RAISE] = LAYOUT(                                                                                        //
+        /*    */ KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, /* */ KC_UNDS, KC_PLUS, KC_HOME, KC_END, KC_TILDE, //
+        /* */ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, /* */ KC_PIPE, KC_COLN, ___, ___, KC_GRV,          //
+        /*                     */ ___, ___, ___, ___, ___, /* */ KC_LCBR, KC_RCBR, ___, ___, ___,             //
+        /*                               */ ___, ___, ___, /* */ ___, ___, ___                               //
+        ),                                                                                                    //
 
     [_FN] = LAYOUT(                                                                                  //
         /*   */ KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, /* */ KC_PSCR, KC_SCRL, KC_PAUS, KC_INS, KC_CAPS, //
@@ -87,10 +87,10 @@ combo_t key_combos[] = {
     /* COMBO(combo_pgu, KC_PGUP), // */
     /* COMBO(combo_pgd, KC_PGDN), // */
     COMBO(combo_rst, QK_BOOT)  //
-}
+};
 
 bool process_record_user(uint16_t keycode, keyrecord_t* record) {
     update_tri_layer(_LOWER, _RAISE, _BOTH);
     return true;
 }
-;
+

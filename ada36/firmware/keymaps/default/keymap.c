@@ -7,7 +7,6 @@ enum layers { _BASE, _RAISE, _LOWER, _FN, _BOTH };
 #define LOWER LT(_LOWER, KC_SPC)
 #define RAISE LT(_RAISE, KC_SPC)
 #define BOTH MO(_BOTH)
-#define XXX KC_NO
 #define FN LT(_FN, KC_ENT)
 #define _S(x) LSFT_T(x)
 #define _C(x) LCTL_T(x)
