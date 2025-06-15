@@ -9,12 +9,18 @@
     "device_version": "2.7.4"
   },
   "matrix_pins": {
-    "cols": ["GP4", "GP5", "GP6", "GP7", "GP8","GP14", "GP15", "GP26" ,"GP27", "GP28", "GP29"],
+    "cols": [ "GP4", "GP5", "GP6", "GP7", "GP8", "GP14", "GP15", "GP26", "GP27", "GP28", "GP29" ],
     "rows": ["GP13", "GP12", "GP10", "GP9"]
   },
   "diode_direction": "COL2ROW",
   "processor": "RP2040",
   "bootloader": "rp2040",
+  "host": {
+    "default": {
+      "nkro": true
+    }
+  },
+
   "layouts": {
     "LAYOUT": {
       "layout": [

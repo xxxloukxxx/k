@@ -15,6 +15,11 @@
   "diode_direction": "COL2ROW",
   "processor": "RP2040",
   "bootloader": "rp2040",
+  "host": {
+    "default": {
+      "nkro": true
+    }
+  },
   "layouts": {
     "LAYOUT": {
       "layout": [

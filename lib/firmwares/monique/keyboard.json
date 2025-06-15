@@ -1,16 +1,16 @@
 {
-  "keyboard_name": "madeline36",
-  "manufacturer": "xxxloukxxx",
+  "keyboard_name": "Monique",
+  "manufacturer": "G1Gi",
   "url": "",
-  "maintainer": "WaM",
+  "maintainer": "ElDaron",
   "usb": {
-    "vid": "0x0036",
-    "pid": "0x3600",
-    "device_version": "2.1.1"
+    "vid": "0x1904",
+    "pid": "0x010A",
+    "device_version": "2.8.9"
   },
   "matrix_pins": {
-    "cols": [ "GP28", "GP27", "GP26", "GP15", "GP14", "GP8", "GP7", "GP6", "GP5", "GP4" ],
-    "rows": ["GP13", "GP12", "GP10", "GP9"]
+    "cols": [ "GP0", "GP29", "GP28", "GP27", "GP26", "GP15", "GP9", "GP5", "GP4", "GP3", "GP2", "GP1" ],
+    "rows": ["GP11", "GP10", "GP12", "GP6", "GP8"]
   },
   "diode_direction": "COL2ROW",
   "processor": "RP2040",
@@ -20,10 +20,22 @@
       "nkro": true
     }
   },
-
   "layouts": {
     "LAYOUT": {
       "layout": [
+        { "matrix": [4, 0], "x": 0, "y": 0 },
+        { "matrix": [4, 1], "x": 1, "y": 0 },
+        { "matrix": [4, 2], "x": 2, "y": 0 },
+        { "matrix": [4, 3], "x": 3, "y": 0 },
+        { "matrix": [4, 4], "x": 4, "y": 0 },
+        { "matrix": [4, 5], "x": 5, "y": 0 },
+        { "matrix": [4, 6], "x": 6, "y": 0 },
+        { "matrix": [4, 7], "x": 7, "y": 0 },
+        { "matrix": [4, 8], "x": 8, "y": 0 },
+        { "matrix": [4, 9], "x": 9, "y": 0 },
+        { "matrix": [4, 10], "x": 10, "y": 0 },
+        { "matrix": [4, 11], "x": 11, "y": 0 },
+        { "matrix": [0, 11], "x": 12, "y": 0 },
         { "matrix": [3, 0], "x": 0, "y": 0 },
         { "matrix": [3, 1], "x": 1, "y": 0 },
         { "matrix": [3, 2], "x": 2, "y": 0 },
@@ -34,16 +46,19 @@
         { "matrix": [3, 7], "x": 7, "y": 0 },
         { "matrix": [3, 8], "x": 8, "y": 0 },
         { "matrix": [3, 9], "x": 9, "y": 0 },
+        { "matrix": [3, 10], "x": 10, "y": 0 },
+        { "matrix": [3, 11], "x": 11, "y": 0 },
         { "matrix": [2, 0], "x": 0, "y": 1 },
         { "matrix": [2, 1], "x": 1, "y": 1 },
         { "matrix": [2, 2], "x": 2, "y": 1 },
         { "matrix": [2, 3], "x": 3, "y": 1 },
         { "matrix": [2, 4], "x": 4, "y": 1 },
         { "matrix": [2, 5], "x": 5, "y": 1 },
-        { "matrix": [2, 6], "x": 6, "y": 1 },
         { "matrix": [2, 7], "x": 7, "y": 1 },
         { "matrix": [2, 8], "x": 8, "y": 1 },
         { "matrix": [2, 9], "x": 9, "y": 1 },
+        { "matrix": [2, 10], "x": 10, "y": 1 },
+        { "matrix": [2, 11], "x": 11, "y": 1 },
         { "matrix": [1, 0], "x": 0, "y": 2 },
         { "matrix": [1, 1], "x": 1, "y": 2 },
         { "matrix": [1, 2], "x": 2, "y": 2 },
@@ -54,12 +69,17 @@
         { "matrix": [1, 7], "x": 7, "y": 2 },
         { "matrix": [1, 8], "x": 8, "y": 2 },
         { "matrix": [1, 9], "x": 9, "y": 2 },
+        { "matrix": [1, 10], "x": 10, "y": 2 },
+        { "matrix": [1, 11], "x": 11, "y": 2 },
         { "matrix": [0, 0], "x": 0, "y": 3 },
-        { "matrix": [0, 2], "x": 2, "y": 3 },
+        { "matrix": [0, 1], "x": 1, "y": 3 },
         { "matrix": [0, 3], "x": 3, "y": 3 },
+        { "matrix": [0, 4], "x": 4, "y": 3 },
         { "matrix": [0, 6], "x": 6, "y": 3 },
-        { "matrix": [0, 7], "x": 7, "y": 3 },
-        { "matrix": [0, 9], "x": 9, "y": 3 }
+        { "matrix": [0, 8], "x": 8, "y": 3 },
+        { "matrix": [0, 9], "x": 9, "y": 3 },
+        { "matrix": [0, 10], "x": 10, "y": 3 },
+        { "matrix": [2, 6], "x": 6, "y": 1 }
       ]
     }
   }
