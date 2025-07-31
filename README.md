@@ -1,8 +1,9 @@
 # Keebs
 
-## Ada36/38
+## Ada36(c)/38
 
 ![](ada36/pcb/ada36.jpg)
+![](ada36/pcb/ada36c.png)
 ![](ada38/pcb/ada38.jpg)
 
 ## Chiffre36
@@ -26,4 +27,3 @@
 ["Esc",{w:1.25},"Alt",{x:5.75,w:1.25},"Alt",{w:1.5},"|\n\\","~\n`","Z"],
 [{y:-0.75,x:2.5,w:2.75},"Shift",{x:0.25,w:2.25},"Enter"]
 ```
-
