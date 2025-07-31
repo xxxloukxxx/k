@@ -3,7 +3,7 @@
 ## Ada36(c)/38
 
 ![](ada36/pcb/ada36.jpg)
-![](ada36/pcb/ada36c.png)
+![](ada36c/pcb/ada36c.png)
 ![](ada38/pcb/ada38.jpg)
 
 ## Chiffre36
