@@ -4,7 +4,12 @@
 #define LOCKING_RESYNC_ENABLE
 
 
-#define TAPPING_TERM 200
+// #define TAPPING_TERM 200
+#define TAPPING_TERM 150
+
+// #define FLOW_TAP_TERM 150
+#define RETRO_TAPPING
+// #define PERMISSIVE_HOLD
 
 #define COMBO_TERM 25
 

@@ -6,6 +6,8 @@ enum layers { _BASE,
     _FN,
     _BOTH };
 
+/* #define HOME_ROW 1 */
+
 #define ___ KC_TRNS
 
 #define LOWER LT(_LOWER, KC_SPC)
@@ -22,14 +24,32 @@ enum layers { _BASE,
 #define KC_RGT KC_RIGHT
 #define KC_DN KC_DOWN
 
+#ifdef HOME_ROW
+// Left-hand home row mods
+#define HOME_A LGUI_T(KC_A)
+#define HOME_S LALT_T(KC_S)
+#define HOME_D LSFT_T(KC_D)
+#define HOME_F LCTL_T(KC_F)
+
+// Right-hand home row mods
+#define HOME_J RCTL_T(KC_J)
+#define HOME_K RSFT_T(KC_K)
+#define HOME_L LALT_T(KC_L)
+#define HOME_QUOT RGUI_T(KC_QUOT)
+#endif
+
 #include QMK_KEYBOARD_H
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(                                                                      //
         KC_Q, KC_W, KC_E, KC_R, KC_T, /* */ KC_Y, KC_U, KC_I, KC_O, KC_P,                  //
-        KC_A, KC_S, KC_D, KC_F, KC_G, /* */ KC_H, KC_J, KC_K, KC_L, KC_QUOT,               //
+#ifdef HOME_ROW
+        HOME_A, HOME_S, HOME_D, HOME_F, KC_G, /* */ KC_H, HOME_J, HOME_K, HOME_L, HOME_QUOT, //
+#else
+        KC_A, KC_S, KC_D, KC_F, KC_G, /* */ KC_H, KC_J, KC_K, KC_L, KC_QUOT, //
+#endif
         _S(KC_Z), KC_X, KC_C, KC_V, KC_B, /* */ KC_N, KC_M, KC_COMMA, KC_DOT, _S(KC_SLSH), //
-        _C(KC_TAB), KC_LGUI, RAISE, /* */ LOWER, KC_LALT, FN                               //
+        KC_LCTL, KC_LGUI, RAISE, /* */ LOWER, KC_LALT, FN                               //
         ),                                                                                 //
 
     [_LOWER] = LAYOUT(                                                               //
@@ -49,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_FN] = LAYOUT(                                                                          //
         KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, /* */ KC_PSCR, KC_SCRL, KC_PAUS, KC_INS, KC_CAPS, //
         KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, /* */ KC_F11, KC_F12, KC_F13, KC_F14, KC_F15,    //
-        KC_MUTE, KC_VOLD, KC_VOLU, ___, ___, /* */ ___, ___, ___, ___, ___,                  //
+        KC_MUTE, KC_VOLD, KC_VOLU, DM_REC1, DM_PLY1, /* */ ___, ___, ___, ___, ___,                  //
         ___, ___, ___, /* */ ___, ___, ___                                                   //
         ),                                                                                   //
 
@@ -63,9 +83,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // COMBO is everything !
 const uint16_t PROGMEM combo_esc[] = { KC_Q, KC_W, COMBO_END };
-const uint16_t PROGMEM combo_bsp[] = { KC_O, KC_P, COMBO_END };
-const uint16_t PROGMEM combo_tab[] = { KC_S, KC_D, COMBO_END };
-const uint16_t PROGMEM combo_ent[] = { KC_L, KC_QUOT, COMBO_END };
+const uint16_t PROGMEM combo_bsp[] = {KC_O, KC_P, COMBO_END};
+#ifdef HOME_ROW
+const uint16_t PROGMEM combo_tab[] = {HOME_S, HOME_D, COMBO_END};
+const uint16_t PROGMEM combo_ent[] = {HOME_L, HOME_QUOT, COMBO_END};
+#else
+const uint16_t PROGMEM combo_tab[] = {KC_S, KC_D, COMBO_END};
+const uint16_t PROGMEM combo_ent[] = {KC_L, KC_QUOT, COMBO_END};
+#endif
 const uint16_t PROGMEM combo_alt[] = { KC_DOT, KC_COMMA, COMBO_END };
 const uint16_t PROGMEM combo_rst[] = { KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, COMBO_END };
 //
