@@ -1,0 +1,9429 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "821da4e2-cb42-48c5-94e3-99ae80b5f6b6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyb:Diode"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -0.635 -1.27 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+				)
+			)
+			(property "Value" "Diode"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "keyb-libs:Diode"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy -0.635 -0.635) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0.635 0.635) (xy 0.635 -0.635) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diode_1_1"
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyb:RP2040"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RP2040"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+				)
+			)
+			(property "Footprint" "keyb-libs:RP2040"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP2040_0_1"
+				(rectangle
+					(start -6.35 11.43)
+					(end 6.35 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RP2040_1_1"
+				(pin bidirectional line
+					(at -8.89 10.16 0)
+					(length 2.54)
+					(name "22"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name "21"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "18"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "17"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -5.08 0)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -13.97 90)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -13.97 90)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -13.97 90)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -13.97 90)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 10.16 180)
+					(length 2.54)
+					(name "0"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 7.62 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -7.62 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -10.16 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyb:key"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.65 0.65)
+					)
+				)
+			)
+			(property "Value" "key"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "keyb-libs:MX-5pin"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "key_0_1"
+				(arc
+					(start -2.54 -0.635)
+					(mid -1.1935 -1.1935)
+					(end -0.635 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid -1.642 -1.642)
+					(end -1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid -2.6715 -0.9525)
+					(end -2.54 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 1.27)
+					(mid -2.168 2.168)
+					(end -1.27 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 -2.54)
+					(mid -0.9525 -2.6715)
+					(end -1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.635 2.54)
+					(mid 1.9821 1.982)
+					(end 2.54 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 2.54)
+					(mid 0.9525 2.4085)
+					(end 0.635 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 2.54)
+					(mid 2.168 2.168)
+					(end 2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -2.54)
+					(mid 1.642 -1.642)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0.635)
+					(mid 2.4085 0.9525)
+					(end 2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "key_1_1"
+				(pin bidirectional line
+					(at -3.81 1.27 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 128.27 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01a1ce43-9e64-442e-935a-08b1bd8bbfe6")
+	)
+	(junction
+		(at 215.9 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16659c4f-c94c-4ad8-9f54-ef7eda795e7c")
+	)
+	(junction
+		(at 205.74 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dd23dd7-e700-472b-a68e-569b875beaae")
+	)
+	(junction
+		(at 158.75 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24bb995f-1357-457b-bdbc-801ff54b6678")
+	)
+	(junction
+		(at 158.75 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25a02eb3-3161-4c1a-bb87-58116a6cfcae")
+	)
+	(junction
+		(at 138.43 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2761e2d6-dfee-45ac-8010-e0cfc9402c13")
+	)
+	(junction
+		(at 226.06 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "300576df-3719-466f-957b-b22ee79c8ce2")
+	)
+	(junction
+		(at 199.39 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3061439e-311a-44ac-8d09-838901c51831")
+	)
+	(junction
+		(at 168.91 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "306496e6-49df-46ff-a84d-afa2492f0a85")
+	)
+	(junction
+		(at 205.74 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30dfee3a-b8d5-47be-9bb1-1af9aff12815")
+	)
+	(junction
+		(at 128.27 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313bfb35-e889-45b0-bb24-63c2d370a83a")
+	)
+	(junction
+		(at 215.9 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33fb0e3e-ed27-4e6e-9529-c36107884058")
+	)
+	(junction
+		(at 168.91 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "360c5602-570b-44e3-8614-c5b77ab6e1e7")
+	)
+	(junction
+		(at 185.42 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "381284bb-bd76-4b23-b9cb-0c85b85b03e5")
+	)
+	(junction
+		(at 165.1 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f18e7e2-be9f-4a2e-974c-960a7c227441")
+	)
+	(junction
+		(at 215.9 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca84280-3b6b-4517-b4b2-3c21d24e95c0")
+	)
+	(junction
+		(at 154.94 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5254483d-47ac-4c98-97b3-17f58a8be4e9")
+	)
+	(junction
+		(at 179.07 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e3c8b6-862f-4425-87f6-4233c5c2d42d")
+	)
+	(junction
+		(at 179.07 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55989da0-875b-4c0f-9656-913e3d5cbbb8")
+	)
+	(junction
+		(at 154.94 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "576171b5-4e3b-478b-a869-4d59130e80d5")
+	)
+	(junction
+		(at 134.62 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "590fda89-9d15-48b1-b2ea-b31b3a159ec5")
+	)
+	(junction
+		(at 199.39 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5badbe11-5f30-4208-8cd1-0d59eb11bfac")
+	)
+	(junction
+		(at 185.42 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dffad08-962e-42ab-8cea-dafd61fe13ea")
+	)
+	(junction
+		(at 134.62 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e3ebc38-08e8-4225-9175-95c1631bb055")
+	)
+	(junction
+		(at 175.26 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "601ad8e6-6972-4d56-a1d9-41627e667aca")
+	)
+	(junction
+		(at 205.74 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63896734-d295-452d-ba1d-76818655c80c")
+	)
+	(junction
+		(at 165.1 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66359b8e-392b-4122-93d5-33da6b975542")
+	)
+	(junction
+		(at 154.94 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66603d39-5853-451f-bb40-7df58e594227")
+	)
+	(junction
+		(at 189.23 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6797d94a-8263-4a29-80d8-24aebf0e9601")
+	)
+	(junction
+		(at 195.58 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e6b228-7169-4de2-8811-c4490b8f2a00")
+	)
+	(junction
+		(at 167.64 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "769ab868-f21c-4fb0-8b09-b28e55233ec2")
+	)
+	(junction
+		(at 205.74 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77a3fb15-f5aa-4085-bb05-65adf5213e10")
+	)
+	(junction
+		(at 209.55 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79f4aa32-5d8f-4f03-9ad4-03c0a360d9de")
+	)
+	(junction
+		(at 148.59 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dbf5490-f6b1-4d40-ac67-cdceb3e755f9")
+	)
+	(junction
+		(at 134.62 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e7ca290-3df3-4f10-b342-350990fe6559")
+	)
+	(junction
+		(at 219.71 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "817c462d-bcac-4b00-ac49-7023a0acd8f9")
+	)
+	(junction
+		(at 185.42 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8611dfd0-092c-4b32-af6c-2978b73ddebb")
+	)
+	(junction
+		(at 175.26 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86f42dcf-e3fa-46f6-be95-cc92cc45179a")
+	)
+	(junction
+		(at 144.78 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a975e6-78db-4176-b649-d4a3e2c62d2f")
+	)
+	(junction
+		(at 195.58 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89b39180-34d9-4290-b582-bd9de5951fac")
+	)
+	(junction
+		(at 128.27 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94e41d4c-81e4-4b25-98e4-6610c8eeaea9")
+	)
+	(junction
+		(at 195.58 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1e21e79-850a-4d27-804c-cb6c21e94ac4")
+	)
+	(junction
+		(at 148.59 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a29ce0fc-9f91-4d0e-b4dd-3942ab76772e")
+	)
+	(junction
+		(at 189.23 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2feb756-88d5-4f8f-acb0-1139c6bdf32c")
+	)
+	(junction
+		(at 219.71 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4820930-cfc8-46c6-9c88-9520133058ad")
+	)
+	(junction
+		(at 144.78 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a66581e4-ec78-4b5a-90c9-a3f7d05ece61")
+	)
+	(junction
+		(at 165.1 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6aaf519-adc3-4a4b-b528-d5fcaeac8812")
+	)
+	(junction
+		(at 134.62 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8983689-a2de-4a06-aa20-acd9b93f55ec")
+	)
+	(junction
+		(at 199.39 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afa2fad3-4317-46dc-80fa-f1598f2cf1b5")
+	)
+	(junction
+		(at 154.94 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2cf9ac0-e59d-4995-a136-fae6a4d5db06")
+	)
+	(junction
+		(at 199.39 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3c666a6-e252-44fb-8413-fa08b333bd1c")
+	)
+	(junction
+		(at 134.62 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc3a2e7a-172e-460b-9edf-3d83dbd28a96")
+	)
+	(junction
+		(at 128.27 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0dd6f77-8622-4243-adf6-155cee44521e")
+	)
+	(junction
+		(at 148.59 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c63884e4-4e30-48b5-8022-b81edd2b2384")
+	)
+	(junction
+		(at 219.71 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6a654a4-30ce-4df4-95bd-bb8eedcef408")
+	)
+	(junction
+		(at 209.55 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d55be8c7-93ec-43fa-b1cf-eaac67ad1118")
+	)
+	(junction
+		(at 195.58 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6637afd-fbe6-42ca-be56-06dab1ecf92a")
+	)
+	(junction
+		(at 189.23 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d772cff9-d604-42f9-8061-f6e52449813a")
+	)
+	(junction
+		(at 148.59 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9b1def5-172c-425a-a26b-91b09a276883")
+	)
+	(junction
+		(at 175.26 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddbe1de2-47dd-42ef-b86f-8a6985e6efa2")
+	)
+	(junction
+		(at 144.78 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4bf75f7-1cb1-4679-a51e-b8b91349dd6b")
+	)
+	(junction
+		(at 158.75 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed5cc6a3-4494-47e7-ae7d-0f60698dff71")
+	)
+	(junction
+		(at 138.43 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed7c810-81d8-4964-9ceb-224c6d7713e1")
+	)
+	(junction
+		(at 219.71 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4d5fd93-28e3-4a6d-9287-7089b165c418")
+	)
+	(junction
+		(at 205.74 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8bb4cb-602c-4e6b-8214-7b77625e59a5")
+	)
+	(junction
+		(at 154.94 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd5e999c-f28e-45e6-93f3-9331246f2537")
+	)
+	(wire
+		(pts
+			(xy 179.07 81.28) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0501ce07-ab84-4188-a84a-0c97f41c76ee")
+	)
+	(wire
+		(pts
+			(xy 231.14 101.6) (xy 231.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fd086c-5156-4610-9dd9-3cc9d49beabd")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 205.74 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e8ba2d-006b-42d5-8432-aed08ffaa975")
+	)
+	(wire
+		(pts
+			(xy 231.14 106.68) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1374f204-6d26-45fd-80dc-58cb54565677")
+	)
+	(wire
+		(pts
+			(xy 205.74 71.755) (xy 195.58 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138d9090-3f94-41bd-ba26-825a12ab30e3")
+	)
+	(wire
+		(pts
+			(xy 168.91 41.91) (xy 170.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145d8094-b7be-4543-a031-509d7ad6139f")
+	)
+	(wire
+		(pts
+			(xy 138.43 41.91) (xy 139.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1687399d-284f-4868-b706-7bef1ccbf3a6")
+	)
+	(wire
+		(pts
+			(xy 199.39 61.595) (xy 199.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19837bfe-d15a-4f94-a7bd-8f554f1efcdd")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 158.75 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1819bd-34a1-4b99-8b3e-af6c7658380f")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 160.02 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c714950-fcf9-4cd1-9f43-4f535c49f6b2")
+	)
+	(wire
+		(pts
+			(xy 185.42 91.44) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d83f8de-1c38-4a3e-bebf-f13556b88ae7")
+	)
+	(wire
+		(pts
+			(xy 189.23 35.56) (xy 189.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8505bd-559b-4c1d-bc97-7ee6649286cc")
+	)
+	(wire
+		(pts
+			(xy 148.59 61.595) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f04577e-3fd1-4cc0-9502-9eb1895603c1")
+	)
+	(wire
+		(pts
+			(xy 205.74 91.44) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ad45e0-643b-4ba1-af82-7689bf29b225")
+	)
+	(wire
+		(pts
+			(xy 144.78 52.07) (xy 154.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246e1f21-e586-466f-b2ca-f8e3c7061ea7")
+	)
+	(wire
+		(pts
+			(xy 179.07 61.595) (xy 180.34 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b71129-e37f-46ae-a24d-9c5d350110f9")
+	)
+	(wire
+		(pts
+			(xy 168.91 35.56) (xy 168.91 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a10dfac-a1db-4ed5-96fe-f642e562f5b4")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 189.23 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0e5d6b-d00c-4b7a-b7a7-5c3e1f6743eb")
+	)
+	(wire
+		(pts
+			(xy 209.55 41.91) (xy 210.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3297b16a-ca5f-409b-86f9-5eddaff46dab")
+	)
+	(wire
+		(pts
+			(xy 134.62 52.07) (xy 144.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3413e078-ae51-4e89-a8f8-e51940145581")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.755) (xy 165.1 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b23ce5-0a8d-4863-bfbb-162cf40bd56d")
+	)
+	(wire
+		(pts
+			(xy 219.71 41.91) (xy 220.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aeb92b6-626d-4d32-913e-a00e8304dc23")
+	)
+	(wire
+		(pts
+			(xy 138.43 35.56) (xy 138.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b70d2f0-fefb-4b10-816d-b577c17ad202")
+	)
+	(wire
+		(pts
+			(xy 168.91 61.595) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc69dc8-1b96-4bcd-aa99-a7b13ea251b6")
+	)
+	(wire
+		(pts
+			(xy 175.26 52.07) (xy 185.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddf6a3a-46ee-4c7e-a2c9-e3e83d95c24d")
+	)
+	(wire
+		(pts
+			(xy 179.07 41.91) (xy 179.07 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a43440-bfbc-4006-a337-6d7a12df839a")
+	)
+	(wire
+		(pts
+			(xy 148.59 35.56) (xy 148.59 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41378f38-a2a8-40d3-9ca5-7abcf562a48a")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43df875a-69fc-4232-929d-e66656a7b9dd")
+	)
+	(wire
+		(pts
+			(xy 189.23 100.965) (xy 190.5 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a7ee28-711e-4f25-a480-64c2ddea628e")
+	)
+	(wire
+		(pts
+			(xy 195.58 91.44) (xy 205.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469e968a-322d-4ec2-815d-1007d9846967")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489366c8-e3c2-4c55-bb90-539242e164d6")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 167.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dc8870-57d0-44a2-8856-018031279a3b")
+	)
+	(wire
+		(pts
+			(xy 215.9 91.44) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab32a06-1744-4ed3-bd0e-eaa871f7c041")
+	)
+	(wire
+		(pts
+			(xy 168.91 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdacfdd-3311-4163-9f06-4ab5487a16f6")
+	)
+	(wire
+		(pts
+			(xy 226.06 71.755) (xy 215.9 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d782c02-4588-4892-b3c7-f67500a5dd33")
+	)
+	(wire
+		(pts
+			(xy 205.74 115.57) (xy 226.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8e91de-265b-4788-a2d1-55cb53c29613")
+	)
+	(wire
+		(pts
+			(xy 199.39 61.595) (xy 200.66 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52617106-a074-45db-931a-97856ff1c349")
+	)
+	(wire
+		(pts
+			(xy 134.62 106.68) (xy 134.62 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5527c421-ce43-4fea-bdcd-2d177894b8de")
+	)
+	(wire
+		(pts
+			(xy 158.75 35.56) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55340a5b-3ae0-40e2-8f76-adfb49516716")
+	)
+	(wire
+		(pts
+			(xy 168.91 41.91) (xy 168.91 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569e4c5b-73b1-4e86-ac83-ccf956987951")
+	)
+	(wire
+		(pts
+			(xy 219.71 41.91) (xy 219.71 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581171e7-8915-48e3-8340-1707974daebc")
+	)
+	(wire
+		(pts
+			(xy 219.71 100.965) (xy 220.98 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59851b30-1ca4-429a-b359-0d00c54ae6b4")
+	)
+	(wire
+		(pts
+			(xy 128.27 35.56) (xy 128.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c800e78-7e92-473f-9818-c20b4986c93d")
+	)
+	(wire
+		(pts
+			(xy 185.42 71.755) (xy 175.26 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d893751-5b2c-4a9f-afe9-216c5c75fe7a")
+	)
+	(wire
+		(pts
+			(xy 128.27 41.91) (xy 128.27 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61695cec-d012-48cc-a884-e9377a316a0e")
+	)
+	(wire
+		(pts
+			(xy 215.9 71.755) (xy 205.74 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623fdec1-7eaf-432d-813a-ade5180905a8")
+	)
+	(wire
+		(pts
+			(xy 179.07 41.91) (xy 180.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62410452-b47f-4fc6-9f08-03853c0ad089")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63829b6a-c668-410b-a327-1b52afe76329")
+	)
+	(wire
+		(pts
+			(xy 195.58 110.49) (xy 195.58 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644cbfd7-8f2e-44e1-aa05-499cc5030cff")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665d1490-abb6-4c5b-9888-a124ae96e618")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.965) (xy 129.54 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e02aa0-832e-4b33-9f8f-4a72d55afc42")
+	)
+	(wire
+		(pts
+			(xy 226.06 110.49) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9476ef-2bb9-49e6-9e81-e94c669d87a6")
+	)
+	(wire
+		(pts
+			(xy 219.71 35.56) (xy 219.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c06b9d3-fea6-4530-b4d3-2cdb83f9920f")
+	)
+	(wire
+		(pts
+			(xy 148.59 61.595) (xy 149.86 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1588fc-f61b-4260-ab34-5b8438a8b7e2")
+	)
+	(wire
+		(pts
+			(xy 209.55 61.595) (xy 210.82 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708d8a5e-8b14-4786-bcf4-3f11ef7bda08")
+	)
+	(wire
+		(pts
+			(xy 195.58 115.57) (xy 205.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b5a575-4c56-4c4e-932d-9d36489741b7")
+	)
+	(wire
+		(pts
+			(xy 148.59 41.91) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e18a00-08ec-44a3-a03e-7a88d74d4912")
+	)
+	(wire
+		(pts
+			(xy 154.94 71.755) (xy 144.78 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c11021-9392-4cfb-b6bc-a5a6b259e2ea")
+	)
+	(wire
+		(pts
+			(xy 154.94 110.49) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d5f968-8e3c-421c-9877-ddd6e609df2f")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5cf13f-ac6d-4159-8cb3-bf1511c998a8")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b793647-ba81-4ae1-b631-45edf53721e7")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd6f523-2d10-48f1-9983-23deae59dfc8")
+	)
+	(wire
+		(pts
+			(xy 134.62 110.49) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a9ea99-913f-4d4d-a21f-e3e62c614ca7")
+	)
+	(wire
+		(pts
+			(xy 189.23 41.91) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f1b475-cb9c-4ab6-9dc0-b3eee496dd90")
+	)
+	(wire
+		(pts
+			(xy 219.71 61.595) (xy 219.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d11fd5-a174-4c1a-889e-32bbf0b82fc8")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 195.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88255a84-385f-4412-a498-d80fb43d807d")
+	)
+	(wire
+		(pts
+			(xy 168.91 61.595) (xy 170.18 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ebe43c-3496-4133-a790-ff031ba7a33a")
+	)
+	(wire
+		(pts
+			(xy 189.23 61.595) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de5ca39-0398-4d53-aa5c-aa6c14e181ac")
+	)
+	(wire
+		(pts
+			(xy 138.43 61.595) (xy 139.7 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5ce823-6651-4833-b99b-a1372df2dbcb")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90876920-7ada-4d80-9cd0-0a514ebec51d")
+	)
+	(wire
+		(pts
+			(xy 199.39 81.28) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918e0c79-5141-4e35-aa76-752c3e83687f")
+	)
+	(wire
+		(pts
+			(xy 205.74 110.49) (xy 205.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921720dd-f152-48d9-b217-e413fc1324fd")
+	)
+	(wire
+		(pts
+			(xy 189.23 41.91) (xy 189.23 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fdc198-b74e-43d6-aeda-ac11c9fc5703")
+	)
+	(wire
+		(pts
+			(xy 210.82 106.68) (xy 205.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99462817-211d-4938-9dfa-1e5fb7e5ce15")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 134.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4064ec-d22b-4ea7-be89-3ad8f2127551")
+	)
+	(wire
+		(pts
+			(xy 119.38 115.57) (xy 134.62 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd6372b-d727-4d2c-952d-46933f4c6e91")
+	)
+	(wire
+		(pts
+			(xy 199.39 96.52) (xy 205.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce8b694-394e-404a-8b81-9a452661c9c8")
+	)
+	(wire
+		(pts
+			(xy 209.55 81.28) (xy 210.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eaaca1c-c15f-4e28-9408-01e5069a02a2")
+	)
+	(wire
+		(pts
+			(xy 148.59 96.52) (xy 148.59 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eda9d92-0fd6-4dea-aa60-8d0d93722495")
+	)
+	(wire
+		(pts
+			(xy 219.71 81.28) (xy 219.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f52c558-f1c0-4e87-aac9-1990aad951c4")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a158e526-0292-4ffd-baf5-42a7ba7f47d1")
+	)
+	(wire
+		(pts
+			(xy 154.94 106.68) (xy 154.94 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1708959-d078-45cb-b7ee-7f5292c8a1ff")
+	)
+	(wire
+		(pts
+			(xy 154.94 52.07) (xy 165.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27cf19d-3589-4b6b-b1c2-337734c24349")
+	)
+	(wire
+		(pts
+			(xy 160.02 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3947436-eb9b-4b81-b8bc-a810f11aac35")
+	)
+	(wire
+		(pts
+			(xy 158.75 61.595) (xy 160.02 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bb908c-3f24-42a8-b85b-d1cfe2416912")
+	)
+	(wire
+		(pts
+			(xy 199.39 41.91) (xy 200.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cd553b-e2ae-4080-83a6-96fcde4c21fc")
+	)
+	(wire
+		(pts
+			(xy 215.9 52.07) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60b136e-6c5a-4d2d-836c-63cb225b2d12")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9292136-55ac-46b9-93d9-8249eaa17690")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.755) (xy 119.38 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacbca0c-4432-47fe-a98d-ec334849175f")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1b2a1c-176f-41e0-94e2-06da33995eba")
+	)
+	(wire
+		(pts
+			(xy 144.78 71.755) (xy 134.62 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5a8492-f099-4047-92b4-c854bfe38773")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11f8910-d9ee-4c74-b472-c51be48266f4")
+	)
+	(wire
+		(pts
+			(xy 199.39 96.52) (xy 199.39 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f79933-aa27-4166-b705-07b8c76c675d")
+	)
+	(wire
+		(pts
+			(xy 205.74 52.07) (xy 215.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dd4366-061e-40c4-bb04-f0a9e8c5ff9c")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b662fee3-4010-4173-83a2-9538452aa57b")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba851d6d-1584-45c7-8338-0a3114650093")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbafe7d4-15fd-4dca-b75d-2b2c425a1b4d")
+	)
+	(wire
+		(pts
+			(xy 165.1 52.07) (xy 175.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd34438-3a00-49a9-aa27-1fbaed3995ee")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.965) (xy 200.66 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e5de89-dcaa-4b2b-80a6-c0be05291155")
+	)
+	(wire
+		(pts
+			(xy 209.55 35.56) (xy 209.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51182fa-1f17-411e-8097-816407760b1b")
+	)
+	(wire
+		(pts
+			(xy 195.58 71.755) (xy 185.42 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a4d077-28a7-43b4-9df2-56dc7d0e8e78")
+	)
+	(wire
+		(pts
+			(xy 199.39 81.28) (xy 199.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a4e5eb-2ae4-4b1a-85b5-04b8bb21b081")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7fd289-4601-4c5d-9404-05c9a100d971")
+	)
+	(wire
+		(pts
+			(xy 154.94 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca813f9e-e515-4952-bb1e-74ef0f640db4")
+	)
+	(wire
+		(pts
+			(xy 134.62 115.57) (xy 154.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce04d83b-8f9b-4a6b-8cc2-8fe22eba310c")
+	)
+	(wire
+		(pts
+			(xy 209.55 41.91) (xy 209.55 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d360a380-783a-4a51-8a6c-0e0857d92e00")
+	)
+	(wire
+		(pts
+			(xy 138.43 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41fe750-245a-4fb7-a170-bb44577984df")
+	)
+	(wire
+		(pts
+			(xy 179.07 61.595) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ad0ae4-7f94-4544-b84b-be1a4106f52d")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8fc483c-e9d2-4c94-b599-d164a74c98c6")
+	)
+	(wire
+		(pts
+			(xy 219.71 81.28) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c4d177-4c55-4a87-80bc-91f4db073475")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.965) (xy 149.86 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa91e28-1cd7-445e-bb54-ab999e4e8d9c")
+	)
+	(wire
+		(pts
+			(xy 226.06 106.68) (xy 226.06 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8605e6-015b-4c21-ae72-477a28730f32")
+	)
+	(wire
+		(pts
+			(xy 209.55 61.595) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbe4568-c905-4807-8e9b-ad4530536ab0")
+	)
+	(wire
+		(pts
+			(xy 158.75 61.595) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd58ca9e-6387-4eb8-826f-21ca5b828713")
+	)
+	(wire
+		(pts
+			(xy 199.39 41.91) (xy 199.39 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df03cbd5-d62d-4ec8-8e3d-fd5d7e8257fb")
+	)
+	(wire
+		(pts
+			(xy 199.39 35.56) (xy 199.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cd2d92-0c75-478a-9ec3-cfb99a0d994a")
+	)
+	(wire
+		(pts
+			(xy 128.27 61.595) (xy 129.54 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ba71bd-b8c5-4e0d-bd7a-2b12aaefe83c")
+	)
+	(wire
+		(pts
+			(xy 179.07 35.56) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ef84e2-a8fc-468b-8813-9ac88c99fbb2")
+	)
+	(wire
+		(pts
+			(xy 138.43 41.91) (xy 138.43 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89cfd55-f9fe-4f97-a4b1-a00c78d7dc79")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91c9f02-1ff3-48fb-9d3c-b0642a04a0d3")
+	)
+	(wire
+		(pts
+			(xy 219.71 96.52) (xy 226.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece9b3e8-0c22-4175-9157-2576195ea996")
+	)
+	(wire
+		(pts
+			(xy 148.59 41.91) (xy 148.59 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecff4ac5-b320-412b-9477-2fc9d4a7cfbc")
+	)
+	(wire
+		(pts
+			(xy 148.59 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd188e6-6cc3-4679-873e-57a343cefdc9")
+	)
+	(wire
+		(pts
+			(xy 119.38 52.07) (xy 134.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f076ec8a-536f-49d6-a716-5c81809bea05")
+	)
+	(wire
+		(pts
+			(xy 128.27 41.91) (xy 129.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f226589e-53ce-4fdf-9229-088cf36a3567")
+	)
+	(wire
+		(pts
+			(xy 185.42 52.07) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3aed27a-8e45-4f4c-936b-7c1bb20fc9c7")
+	)
+	(wire
+		(pts
+			(xy 195.58 52.07) (xy 205.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43dc498-a7d2-42cb-838b-20b0b5885a79")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.755) (xy 154.94 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45b3d3b-8882-43f7-9b52-2b7d6c297670")
+	)
+	(wire
+		(pts
+			(xy 138.43 61.595) (xy 138.43 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5826110-2e2e-4760-a887-681b10e64d8d")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 128.27 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f748bb67-8ac5-42b1-a292-b5414a5ca983")
+	)
+	(wire
+		(pts
+			(xy 128.27 61.595) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9014ed5-dd47-46ef-9434-6b601459de20")
+	)
+	(wire
+		(pts
+			(xy 219.71 96.52) (xy 219.71 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae4b00a-37d9-4cc5-ba3c-10a5ae7615ab")
+	)
+	(wire
+		(pts
+			(xy 189.23 61.595) (xy 190.5 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2cfbcb-f058-4ac5-aa51-23cf0c32e439")
+	)
+	(wire
+		(pts
+			(xy 210.82 101.6) (xy 210.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcced052-3cab-493d-82e9-813749a0a70d")
+	)
+	(wire
+		(pts
+			(xy 219.71 61.595) (xy 220.98 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe95d35c-e015-4310-9511-7723046d3393")
+	)
+	(global_label "c5"
+		(shape input)
+		(at 57.15 50.165 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06eced20-e052-434a-b6c8-650127809570")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 61.8612 50.2444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "l3"
+		(shape input)
+		(at 119.38 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07a32f43-9a94-4b1b-9ca1-a0988762ffa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 115.0921 51.9906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c3"
+		(shape input)
+		(at 158.75 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a7d4017-71d7-4ad9-88b9-b72a3a1a4958")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 158.6706 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c2"
+		(shape input)
+		(at 39.37 45.085 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0da95f3d-e5b4-474d-a708-f09b4a1b56a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 34.6588 45.0056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "l1"
+		(shape input)
+		(at 45.72 53.975 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17f3c4d8-3630-49b1-9986-c216228a7ae1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 45.7994 58.2629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c9"
+		(shape input)
+		(at 57.15 40.005 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e3803a3-ea7d-4c27-a07d-1014b683974b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 61.8612 40.0844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c6"
+		(shape input)
+		(at 57.15 47.625 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ee9b577-4be7-475a-8496-40d126fd863e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 61.8612 47.7044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c2"
+		(shape input)
+		(at 148.59 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34686d25-94a0-4844-949e-1b89ffb8dc01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 148.5106 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c5"
+		(shape input)
+		(at 179.07 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49a1e20f-78c6-4e59-8a7f-7587abefc889")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 178.9906 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c7"
+		(shape input)
+		(at 57.15 45.085 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5188b1df-b793-4b7e-ad5f-e89907b50a22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 61.8612 45.1644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "l2"
+		(shape input)
+		(at 50.8 53.975 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60ca917f-e587-4adf-8147-a73f74f64cb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 50.8794 58.2629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c3"
+		(shape input)
+		(at 39.37 47.625 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ac468f5-8890-4ab0-8f01-11f85a7c36cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 34.6588 47.5456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c8"
+		(shape input)
+		(at 57.15 42.545 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fb29584-6599-47ad-bee6-158a28c8600f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 61.8612 42.6244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "l3"
+		(shape input)
+		(at 53.34 53.975 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83810a85-35d2-48c9-978a-cafb4252c121")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 53.2606 58.2629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c6"
+		(shape input)
+		(at 189.23 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98076960-8a53-413e-860a-5d79e7a2a8e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 189.1506 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "l0"
+		(shape input)
+		(at 43.18 53.975 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99d3a14e-ba85-4c54-8f51-003f7be5aff2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 43.2594 58.2629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c9"
+		(shape input)
+		(at 219.71 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fb2854f-5835-48ce-a58e-9bbd65ca97b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 219.6306 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "l2"
+		(shape input)
+		(at 119.38 71.755 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4292bb2-41b5-4054-a21c-9abf1230cf9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 115.0921 71.6756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "l1"
+		(shape input)
+		(at 119.38 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b47c4e2e-4988-4565-8d14-edf5b8fcd80c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 115.0921 91.3606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c1"
+		(shape input)
+		(at 39.37 42.545 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba8fbf7f-57cd-4b89-a887-82ff24926795")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 34.6588 42.4656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c4"
+		(shape input)
+		(at 39.37 50.165 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb22308f-4a8f-4ef1-a9ee-1d41059c62a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 34.6588 50.0856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c4"
+		(shape input)
+		(at 168.91 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7942ef7-122f-4130-baa7-8e4e8b897879")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 168.8306 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c1"
+		(shape input)
+		(at 138.43 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d87a1d1d-96d3-42e4-8aa8-6fe073b51eb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 138.3506 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c0"
+		(shape input)
+		(at 39.37 40.005 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0981a53-1a7f-4355-b869-5e84c756996a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 34.6588 39.9256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c0"
+		(shape input)
+		(at 128.27 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7b7da8a-ec73-4921-928e-a5a09ec89633")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 128.1906 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c7"
+		(shape input)
+		(at 199.39 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee6c0ec2-d380-4a18-90a9-c3aab47ade4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 199.3106 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "l0"
+		(shape input)
+		(at 119.38 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f093b13d-d18c-410e-9a18-2a66be09b1c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 115.0921 115.4906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "c8"
+		(shape input)
+		(at 209.55 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa88045e-3b45-4ef9-aa9f-da68cbca105e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Références Inter-Feuilles" "${INTERSHEET_REFS}"
+			(at 209.4706 30.8488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 134.62 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "027d8d5c-11d6-4139-a80f-ffffd2e5646c")
+		(property "Reference" "D1"
+			(at 135.89 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 132.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fb98e53-5760-4ce1-aa67-fe1c42613ad0")
+		)
+		(pin "2"
+			(uuid "c5d640ab-7b32-43ec-bbed-9ee092f3e09d")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 153.67 62.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "029d863b-f206-4ab4-9dbf-d5b95a5b5984")
+		(property "Reference" "SW13"
+			(at 152.4 62.865 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 153.67 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 153.67 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fda67c1-6648-4ce4-99d2-f8b2d4c4ccd1")
+		)
+		(pin "2"
+			(uuid "74430eeb-d313-4368-9800-81248a5f6272")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 205.74 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ea25e7a-4b52-433a-b9c6-6cd818645c94")
+		(property "Reference" "D28"
+			(at 207.01 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.28 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e554744c-a2a3-4602-b807-82a4960889f3")
+		)
+		(pin "2"
+			(uuid "4cd2d28c-5da3-4ca5-8c7b-a63d121e7cd5")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 215.9 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11fa4d17-1529-4ae8-8050-65c0c0917552")
+		(property "Reference" "D19"
+			(at 217.17 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 218.44 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 213.36 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4ec6107-8996-4d38-8992-6245b75071a5")
+		)
+		(pin "2"
+			(uuid "eb89a2b2-4e13-4573-89d7-d9b6d67bdb0d")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 175.26 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "128ba362-73eb-4869-a9b5-8190c396f9ec")
+		(property "Reference" "D5"
+			(at 176.53 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 172.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2187fc20-f9e0-4ef8-abcc-e481f3f9334e")
+		)
+		(pin "2"
+			(uuid "58dbd529-8822-478d-b99c-db37986f9912")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 204.47 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12f8ef62-9e38-4e3c-be2e-e36de6ea371e")
+		(property "Reference" "SW8"
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "507bb156-5d1b-4a19-a6e3-00e2efc9ec2f")
+		)
+		(pin "2"
+			(uuid "5a9df0c3-e0af-4c50-b2fc-78b8895226ad")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15afeb65-efdb-4421-8b27-b9554711cfc1")
+		(property "Reference" "H5"
+			(at 19.685 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 19.685 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 16.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 143.51 62.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17094f9b-e4a0-4be7-86ab-66dc201ebb68")
+		(property "Reference" "SW12"
+			(at 142.24 62.865 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 143.51 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 143.51 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c10e35d8-82dd-43e5-8073-3ffdb939aba0")
+		)
+		(pin "2"
+			(uuid "d9228b1a-8868-4377-a4cd-89dc99712528")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 144.78 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ba5d17-5161-40e6-915c-ea871596d01f")
+		(property "Reference" "D2"
+			(at 146.05 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "586b2482-b2e3-4352-ad77-710d04dd0bec")
+		)
+		(pin "2"
+			(uuid "dd8f8284-f5ea-4724-8346-89e24c443422")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 195.58 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19125f48-055a-425a-bc28-9b3637a80878")
+		(property "Reference" "D34"
+			(at 196.85 113.03 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6dceb23-6e92-4ac0-a950-4c4ec7392214")
+		)
+		(pin "2"
+			(uuid "c70a6d7b-47d4-46b2-bc9c-40669bca6180")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 194.31 62.865 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c835be8-a5f4-42e9-9c90-ff9069545539")
+		(property "Reference" "SW17"
+			(at 194.31 64.135 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 198.12 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 199.39 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2546ad60-81ca-415c-be59-b4b0c19ca3e5")
+		)
+		(pin "2"
+			(uuid "b7104158-6276-4e6e-9732-adc927f06846")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 205.74 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d9c5861-ef9b-46b1-a410-2323a0a9ff80")
+		(property "Reference" "D8"
+			(at 207.01 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.28 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65ac0bf3-02bc-4fb5-b813-ce9344156a77")
+		)
+		(pin "2"
+			(uuid "1d446d86-01bc-4f4b-9a6a-01cfd83a8c5d")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 185.42 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a3a0feb-2acc-4b57-9e46-c63978886416")
+		(property "Reference" "D26"
+			(at 186.69 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17972f92-f85e-4bc4-a829-51e7c5aa0c97")
+		)
+		(pin "2"
+			(uuid "a339d6f4-98f0-4e53-98bb-3f9a3c8a74a2")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 195.58 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bfc930d-f2f6-4c6a-b286-22d820f4ed11")
+		(property "Reference" "D7"
+			(at 196.85 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 198.12 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 193.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46a961a9-4f32-484e-982b-ecade376b8a5")
+		)
+		(pin "2"
+			(uuid "6494d19b-a35a-4195-8d90-c2592872d910")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 163.83 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cd6fd46-00c3-4d1e-a04c-1216ea8de1ce")
+		(property "Reference" "SW4"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4af26fc0-1d09-4a1a-9064-7fabd26f08be")
+		)
+		(pin "2"
+			(uuid "655ecbcb-5115-4bd9-aef8-99f0c82575d1")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e2b83ce-1708-4fb1-b468-ff252509c07d")
+		(property "Reference" "H3"
+			(at 19.685 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 19.685 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 16.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 175.26 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e9f6e02-defa-4026-9995-f2f4d5b06475")
+		(property "Reference" "D15"
+			(at 176.53 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 177.8 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 172.72 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b0b4612-c050-4546-ad87-3206a32ac35a")
+		)
+		(pin "2"
+			(uuid "82d024a6-2796-49c3-acc6-2b66bfe89622")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 214.63 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3359a1cd-8deb-40c1-bf9f-947a991436cd")
+		(property "Reference" "SW29"
+			(at 214.63 83.82 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73eefe58-bd9d-4cea-bffc-e1e9745c35a0")
+		)
+		(pin "2"
+			(uuid "6ff5eb68-2aa8-4135-b88f-170a2d07c4d4")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 215.9 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3427922a-80fb-4d77-87db-e7ba4a47655d")
+		(property "Reference" "D9"
+			(at 217.17 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 218.44 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 213.36 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6aba29d5-2d33-495f-84b0-8cb348814121")
+		)
+		(pin "2"
+			(uuid "5f04cc7d-1fbd-4f33-9b67-94876e9aab4a")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 133.35 62.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34a6e311-cc5d-4f43-9017-1a0760ed3438")
+		(property "Reference" "SW11"
+			(at 132.08 62.865 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 133.35 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 133.35 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b56e9c56-f2a6-45ba-832e-7ec593608275")
+		)
+		(pin "2"
+			(uuid "de287f90-600b-44c0-af06-571be544efe0")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 215.9 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36abbfeb-91a8-4fb1-8654-7a77f6833807")
+		(property "Reference" "D29"
+			(at 217.17 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 213.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79f16fc5-c42a-456c-80a6-9a12dfe38f79")
+		)
+		(pin "2"
+			(uuid "a4c71329-7a84-460f-837b-c3a960266325")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 32.385 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "376919bb-51f7-428b-ab95-7d592452f77d")
+		(property "Reference" "#PWR01"
+			(at 33.02 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 32.3849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88ddc246-6adf-4da1-8a6f-b94885f77d8e")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 165.1 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3956af14-7189-44ed-bf22-7decb8eb0e72")
+		(property "Reference" "D4"
+			(at 166.37 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cbe05d2-90f3-44b6-a82d-eb3929513ffb")
+		)
+		(pin "2"
+			(uuid "72bfa444-b1f3-4452-bb62-09eeeae9c9c9")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 214.63 62.865 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ba9ee43-9b94-4070-8f46-94a805b384c2")
+		(property "Reference" "SW19"
+			(at 214.63 64.135 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 218.44 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 219.71 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51c0746c-5fbb-434a-89f0-7ab41ca290fb")
+		)
+		(pin "2"
+			(uuid "a697d697-69e4-4a41-8c03-6f10ffd8097d")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 134.62 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca04f20-514d-4a21-a01c-e14e0f6a9aa8")
+		(property "Reference" "D21"
+			(at 135.89 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "883b5003-6fc2-4f35-98ec-425e9fff6423")
+		)
+		(pin "2"
+			(uuid "41996548-9405-45aa-b922-74a9e0f647c6")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 173.99 62.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fd0a792-85d3-460a-89de-974c38383172")
+		(property "Reference" "SW15"
+			(at 172.72 62.865 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 173.99 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 173.99 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b682c2f6-abf3-43b3-a992-a1b34261055d")
+		)
+		(pin "2"
+			(uuid "405e70b1-9523-4d2f-969c-a095bce980d8")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 165.1 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48510559-9299-4db7-b90a-8cec9ecbc902")
+		(property "Reference" "D24"
+			(at 166.37 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f6366a5-6288-4646-9e11-04fcc8ab3423")
+		)
+		(pin "2"
+			(uuid "7ac6205d-f831-43f8-a31a-f8f6e63f9bfa")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 204.47 62.865 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48c4ca7a-f18a-4977-b268-092984284fbb")
+		(property "Reference" "SW18"
+			(at 204.47 64.135 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 208.28 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 209.55 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f653ec2-6c39-4cc6-b757-5718eb803f0b")
+		)
+		(pin "2"
+			(uuid "55e7ea96-d8fd-4df1-8cae-452c9da6db3a")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 226.06 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4baf27b5-56b2-42e6-9751-f5be50350d28")
+		(property "Reference" "D20"
+			(at 227.33 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 228.6 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 223.52 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b5bddf1-4e80-447f-b794-08a623dd9c10")
+		)
+		(pin "2"
+			(uuid "be80ee25-6032-44fb-bd10-9b140952cd1f")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 134.62 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3a6f11-e026-410b-af1e-fea3ba910402")
+		(property "Reference" "D11"
+			(at 135.89 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 137.16 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 132.08 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "510bbb65-7efe-4ba4-8ec1-4ae81e59fb26")
+		)
+		(pin "2"
+			(uuid "d789a1da-4bb5-44aa-8f0a-5894ebf94cda")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 185.42 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50066376-1f4f-43e7-9d14-77486dcf8efc")
+		(property "Reference" "D6"
+			(at 186.69 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 182.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fbbd783-397e-469b-bd42-18861c447ef7")
+		)
+		(pin "2"
+			(uuid "8cfd40de-865b-468d-af27-0b8f9b25f42a")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 144.78 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a071fea-b8e3-439e-a398-eeabcf7126f3")
+		(property "Reference" "D22"
+			(at 146.05 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c6746d9-9dab-48c9-a1e2-826dbed90436")
+		)
+		(pin "2"
+			(uuid "deb73416-fe5d-498b-ba28-c6ec2851ea6e")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 165.1 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f847122-9b09-4004-b3ff-ef6fcaf96e44")
+		(property "Reference" "D14"
+			(at 166.37 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 167.64 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 162.56 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9c0495e-923d-4eca-b09e-ac17e60de491")
+		)
+		(pin "2"
+			(uuid "f8230a38-7ecb-4515-9138-c19443ffd00c")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 195.58 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64147232-1757-4e0e-938e-9de4740c7e65")
+		(property "Reference" "D17"
+			(at 196.85 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 198.12 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 193.04 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44adcad6-541b-4f73-a484-253976566d6c")
+		)
+		(pin "2"
+			(uuid "aa5c0c8f-f123-4f0f-b69f-31b050604113")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 226.06 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663ce8b0-e9d2-448c-9d7e-e4b843162d54")
+		(property "Reference" "D30"
+			(at 227.33 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59715e4c-1c79-4ea2-af1d-033a528756cf")
+		)
+		(pin "2"
+			(uuid "3bbec6a3-6b5c-42c4-835e-92e937eef16b")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 224.79 62.865 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66887a04-9891-4fcd-8d91-24d00b2c05cd")
+		(property "Reference" "SW20"
+			(at 224.79 64.135 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 228.6 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 229.87 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90371eb9-d57c-4b45-8e01-4b444eaceecf")
+		)
+		(pin "2"
+			(uuid "5bc32d5c-fecf-4e22-95a4-38109c0f665b")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 195.58 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a054a00-e5ab-4b02-b4ca-5195c8e9e470")
+		(property "Reference" "D27"
+			(at 196.85 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 193.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2a62b9c-e6e4-4818-aee1-11adcc28c30f")
+		)
+		(pin "2"
+			(uuid "7e11318a-0557-4db7-82aa-9fcdc287a56c")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 134.62 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b7b328e-99da-49ce-86b5-e4080bf87a9e")
+		(property "Reference" "D31"
+			(at 135.89 113.03 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34cb05ec-7589-482e-9f35-133797e13c71")
+		)
+		(pin "2"
+			(uuid "196b6d20-98b7-451e-87ce-5897fb0ac67d")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 224.79 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b9336d8-7e9b-49f6-b47e-bb7d524940b3")
+		(property "Reference" "SW10"
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dc960fb-f67e-4dca-b994-28f26e4718a7")
+		)
+		(pin "2"
+			(uuid "de941ec9-cc19-4d45-857b-3a9dad92751a")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 194.31 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "714f7590-e8e5-41a7-94b6-02a665fc59e4")
+		(property "Reference" "SW27"
+			(at 194.31 83.82 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1875f314-c53d-4b2c-bcd5-e2f3b201a71f")
+		)
+		(pin "2"
+			(uuid "951733a4-3a23-4be2-b575-cfddf485c831")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 144.78 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "745d0232-d511-47da-8198-06d779015183")
+		(property "Reference" "D12"
+			(at 146.05 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 147.32 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 142.24 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b9e9616-7c57-48e6-a5af-39239c537cef")
+		)
+		(pin "2"
+			(uuid "e7974bf0-2240-48c3-a93f-9165af22ebe4")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 163.83 62.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "763f2535-7676-41d6-844e-472dad51e058")
+		(property "Reference" "SW14"
+			(at 162.56 62.865 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 163.83 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 163.83 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab2aaa12-0264-4066-81ad-ed30f845b4aa")
+		)
+		(pin "2"
+			(uuid "71aa6451-aaba-4529-9320-42f0a9c1af0c")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 143.51 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80080c8b-8e1d-4137-bb52-ca3eb6fd4763")
+		(property "Reference" "SW2"
+			(at 142.24 43.18 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "874c1561-5bd9-4931-aac5-680807fe8fd9")
+		)
+		(pin "2"
+			(uuid "91778695-f42d-4eda-b995-26347f07af99")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 133.35 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "801e781f-a61b-4a02-abac-e0113e7926de")
+		(property "Reference" "SW1"
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 133.35 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9926b8b8-3b89-471f-8a81-b369aed1495e")
+		)
+		(pin "2"
+			(uuid "2455756a-ea67-4490-8220-b4bfb04ac710")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 154.94 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "877e9b9a-8454-40b4-995a-a8da8070a7e9")
+		(property "Reference" "D23"
+			(at 156.21 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69c6a4a0-3752-4922-93e2-529e53c9ef19")
+		)
+		(pin "2"
+			(uuid "6a282e5e-a387-43ee-a7f8-b8d805d4c52f")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 167.64 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88bb54ef-1114-466a-a130-a8ca7c8bbd4a")
+		(property "Reference" "D33"
+			(at 168.91 113.03 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 170.18 113.03 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b5fae54-832b-4fb1-8ede-1d1bdbfe30d8")
+		)
+		(pin "2"
+			(uuid "5fda1f69-af8d-480c-bb92-2db61dae2647")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 194.31 102.235 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a15db0c-837f-4ab0-9859-95f0841bb6ff")
+		(property "Reference" "SW34"
+			(at 194.31 103.505 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 198.12 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 199.39 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85c0fe9a-d1e2-4850-b8ef-d1df21dddb24")
+		)
+		(pin "2"
+			(uuid "b6f4b501-7ff1-4462-8652-3acddf4c06b1")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 153.67 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b8c056f-a77f-438c-a475-229d9b667281")
+		(property "Reference" "SW32"
+			(at 152.4 102.235 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 153.67 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 153.67 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "386da6d5-c938-492f-bd6f-e64f74819831")
+		)
+		(pin "2"
+			(uuid "4ed5483c-a553-4a9c-9e1d-4518f10a0a8d")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 204.47 102.235 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d0b2c09-27e4-4b48-ae49-fd9fed7f730e")
+		(property "Reference" "SW35"
+			(at 204.47 103.505 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 208.28 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 209.55 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16535fe1-8dd5-4c81-946a-5fa99af96265")
+		)
+		(pin "2"
+			(uuid "11753150-5eab-4a56-83a3-8f8eae6860a6")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 154.94 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c38cee-da23-49f4-b8a5-77b9999b39a9")
+		(property "Reference" "D32"
+			(at 156.21 113.03 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e934157-86b0-4aa7-8840-5187b7ade01e")
+		)
+		(pin "2"
+			(uuid "f9dbeaae-7807-493c-8773-d983595e661b")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 133.35 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94b55b0d-9477-4762-8999-0897c182c042")
+		(property "Reference" "SW31"
+			(at 132.08 102.235 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 133.35 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 133.35 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35e1d64a-ccb9-4e1a-9a80-a91588fd30e0")
+		)
+		(pin "2"
+			(uuid "d4c6b074-3089-4e7d-b50c-d401264d56c0")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 173.99 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "951efc39-6a26-44fe-b0c1-99736a0d27e0")
+		(property "Reference" "SW5"
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 173.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfa390dd-838b-47bf-b8a9-7f70135970be")
+		)
+		(pin "2"
+			(uuid "f0aeb547-80a1-4951-ac9c-f7b5997877e6")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 154.94 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97cda39e-0da9-4bf9-8476-ef307d31b2c4")
+		(property "Reference" "D13"
+			(at 156.21 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 157.48 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 152.4 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fe5bac6-1a16-40c8-a17a-40ae38bfc559")
+		)
+		(pin "2"
+			(uuid "33c98c38-c0cd-4237-982b-b921c94b6e73")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 185.42 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "993b3193-a5c4-4aac-94f5-6484889de6a4")
+		(property "Reference" "D16"
+			(at 186.69 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 187.96 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 182.88 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcc1d8af-1162-48b0-ae91-3c384e60bc51")
+		)
+		(pin "2"
+			(uuid "70eade72-66e4-4e28-a26b-c8293d544d09")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 214.63 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bdbe7b0-3db4-4597-a06c-c890082c23a2")
+		(property "Reference" "SW9"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 219.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cdb4e31-a4ae-4418-a5be-7a08523ed864")
+		)
+		(pin "2"
+			(uuid "17b15c7f-02a8-4c36-9f78-f428b015f44e")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 184.15 62.865 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a259b876-a06d-4674-b23b-2f8092e5d670")
+		(property "Reference" "SW16"
+			(at 184.15 64.135 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 187.96 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 189.23 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3238df1-0811-4574-ae48-d1f316ca6c36")
+		)
+		(pin "2"
+			(uuid "92e641f1-7335-4aac-8637-dd0b3b5e68b9")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 175.26 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a57db4e1-42f1-4334-9e05-f3fa96e6c8fb")
+		(property "Reference" "D25"
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99fbd125-45fa-468c-bc4f-8cd7de0d2aba")
+		)
+		(pin "2"
+			(uuid "1923dabd-f88d-4b81-9959-e6f06f1dc6ea")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 143.51 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9aeebb4-390a-4c71-8b90-c17a53792b3e")
+		(property "Reference" "SW22"
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d7bb9c2-bfbe-4aff-a9cd-bc67f9ebc6d8")
+		)
+		(pin "2"
+			(uuid "a0a713de-d1ae-48fd-97b0-55610bb2f866")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 209.55 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ada525bf-e330-4382-a256-7c58542a9900")
+		(property "Reference" "SW35b"
+			(at 209.55 99.06 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 213.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cca5d37e-2251-4cad-8f38-2892507fe3c2")
+		)
+		(pin "2"
+			(uuid "0c7738a6-2027-4897-9caa-0925078bde59")
+		)
+		(instances
+			(project "mad36v3"
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW35b")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 184.15 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b549c9b5-27f4-4083-a948-6ac699eed5fa")
+		(property "Reference" "SW26"
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 189.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fd57a36-13f2-49e8-bc42-f562303e240a")
+		)
+		(pin "2"
+			(uuid "d575cb34-d7da-44eb-b650-4a68f0cb9821")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 173.99 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba31a8f0-f557-4267-a1b0-79d0ac9a65a7")
+		(property "Reference" "SW25"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e2840ac-fae3-4772-b5fa-d61386c689d4")
+		)
+		(pin "2"
+			(uuid "1dfb2a1e-47a1-442b-8b52-43bb353b530a")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 226.06 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba527dd2-d686-47dc-84ee-5aa0a60ad43b")
+		(property "Reference" "D10"
+			(at 227.33 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 228.6 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb4ee391-1f35-47d0-a983-cf2d636de79e")
+		)
+		(pin "2"
+			(uuid "6bd13e70-22ba-472e-bcc5-8c27c7f10d1e")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 224.79 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0293fb9-55b9-4a53-9788-3870c427602a")
+		(property "Reference" "SW30"
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdf42edc-f387-493e-8efe-2a38a3eea78e")
+		)
+		(pin "2"
+			(uuid "c0e494d0-486c-4e82-b7f8-7f77032a153d")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 133.35 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0718e41-bc2c-4afa-84e8-7a9c522ca460")
+		(property "Reference" "SW21"
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58916466-97ce-41e4-890e-f85a583e0f5e")
+		)
+		(pin "2"
+			(uuid "9736e1c5-3132-413c-8d0d-d5cf68bd32bf")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 224.79 102.235 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0efefa2-98ce-4a61-bf4b-f3c0f9cae728")
+		(property "Reference" "SW36"
+			(at 224.79 103.505 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 228.6 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 229.87 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4992fc13-45df-4bba-9bdf-4b183c93ce59")
+		)
+		(pin "2"
+			(uuid "01da8e9d-1f3d-4b60-931d-4f2a49791823")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 194.31 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c24fdf1e-cf11-41db-ab72-a8f5b55bf64c")
+		(property "Reference" "SW7"
+			(at 194.31 44.45 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 198.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 199.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "597e2179-caaf-4b6f-a6f7-782502832ee7")
+		)
+		(pin "2"
+			(uuid "4bf8e902-45ae-4023-ac37-b1126e16a138")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 204.47 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6034a27-3ac6-458c-a4bd-8989c9bfbf89")
+		(property "Reference" "SW28"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc9fa092-4d21-439c-a299-84fb558a9ed1")
+		)
+		(pin "2"
+			(uuid "a37f0edf-0dfd-4261-b31b-f33f6a9511e9")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7dbf809-123e-4b5b-a263-9b64b8b5e8de")
+		(property "Reference" "H1"
+			(at 19.685 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 19.685 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 16.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9798f00-2811-4c77-ab67-aad241b6af84")
+		(property "Reference" "H2"
+			(at 19.685 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 19.685 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 16.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 153.67 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca8e0a2d-154b-43f7-a829-e4232b169004")
+		(property "Reference" "SW23"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "668d9007-3dc5-440d-b36b-7db5b771008e")
+		)
+		(pin "2"
+			(uuid "decc9477-3866-4aaf-b8f4-3c4eb1a60bcf")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 205.74 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caeb19d7-c892-4402-8419-855fe02d90b3")
+		(property "Reference" "D35"
+			(at 207.01 113.03 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 203.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "446f1dc1-d393-442b-aa89-1fe54cc85884")
+		)
+		(pin "2"
+			(uuid "7eea5cd9-0329-4108-a429-5158cd64d10a")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 166.37 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1e35db2-486e-44b7-8532-1108fc070549")
+		(property "Reference" "SW33"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc683790-8129-42e6-9441-defe975950f8")
+		)
+		(pin "2"
+			(uuid "9aa64673-eddf-44fa-83fc-0ea76f5c846c")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 154.94 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5a6487a-de1e-4cca-8d1b-65c4ecb71e82")
+		(property "Reference" "D3"
+			(at 156.21 49.53 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 152.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93af6887-f01e-4ffb-ac6b-d024a74dbd77")
+		)
+		(pin "2"
+			(uuid "9da3e1dc-4d6c-4a76-be0a-a01bf625d072")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 153.67 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5e712be-9a1f-49f8-a5b6-c614dd07963c")
+		(property "Reference" "SW3"
+			(at 152.4 43.18 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 153.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3962d1b-ca0a-4026-b0bb-0184257c4e2e")
+		)
+		(pin "2"
+			(uuid "53db8656-c98a-4ca6-a338-f924e7dd9a8d")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 205.74 69.215 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7f41816-51a4-4e20-87dd-27c803a75eba")
+		(property "Reference" "D18"
+			(at 207.01 69.215 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 208.28 69.215 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 203.2 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5397760-52bf-4607-b826-a8ce6fe97b20")
+		)
+		(pin "2"
+			(uuid "5e86ccbf-8592-44bc-8bf6-a510d1e2a729")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 229.87 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d84d57d5-da28-4584-b7d0-01c59b949ace")
+		(property "Reference" "SW36b"
+			(at 229.87 99.06 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24473575-52f6-483a-8b19-ab13665a5ba1")
+		)
+		(pin "2"
+			(uuid "e8d070cc-c0ec-43cb-846d-faec956469ac")
+		)
+		(instances
+			(project "mad36v3"
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW36b")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e344b45f-416b-41f3-b3e6-a3ebbd3349cb")
+		(property "Reference" "H4"
+			(at 19.685 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 19.685 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 16.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 184.15 43.18 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5afd88d-ec19-4f32-91e8-fbae56f34c96")
+		(property "Reference" "SW6"
+			(at 184.15 44.45 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a3eb446-faa0-480a-ae33-cec0ce80e729")
+		)
+		(pin "2"
+			(uuid "7d64b59b-8a3d-46db-be10-168e4c2cd580")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 163.83 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e826b266-dd5b-406b-8e63-a1f8e95be016")
+		(property "Reference" "SW24"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "085f6862-dfdd-4fd0-93ee-f74d3f6a0f99")
+		)
+		(pin "2"
+			(uuid "8491b34f-e3fc-4706-b56b-9b6b3264e0a0")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:RP2040")
+		(at 48.26 40.005 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed399e66-f6a1-455d-bdee-a9ae3854a83e")
+		(property "Reference" "U1"
+			(at 48.26 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RP2040"
+			(at 48.26 27.305 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+			)
+		)
+		(property "Footprint" "kb:RP2040"
+			(at 48.26 33.655 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "b4cb5cd7-3d53-45c4-a7eb-3ca0924ee942")
+		)
+		(pin "1"
+			(uuid "4fab22bb-81d2-4c9a-80c4-ec4dd8764e29")
+		)
+		(pin "10"
+			(uuid "750c2c14-148d-4104-b634-e34183a07dc0")
+		)
+		(pin "11"
+			(uuid "2b075f2b-fd3b-4559-86fb-a078b3d3b813")
+		)
+		(pin "12"
+			(uuid "b66ae1fc-2558-4fd1-a142-00f3b3abb0f5")
+		)
+		(pin "13"
+			(uuid "b885de49-01d1-4c56-9978-8f13d421c933")
+		)
+		(pin "14"
+			(uuid "c9804ca6-23af-4c3a-8ac0-2044f72b3ebc")
+		)
+		(pin "15"
+			(uuid "359dbc15-edb2-4451-b176-a953e45e76cf")
+		)
+		(pin "16"
+			(uuid "9ff2b742-020b-4d57-9ac1-54531f09d709")
+		)
+		(pin "17"
+			(uuid "088f40aa-6d7b-43d9-8ef6-2965ee3cad10")
+		)
+		(pin "18"
+			(uuid "69ef0dc9-26f4-4013-b046-63983f3b99d0")
+		)
+		(pin "19"
+			(uuid "a2740711-5536-4e27-b121-fc0b430e207b")
+		)
+		(pin "2"
+			(uuid "cd29eb28-5988-488b-b3fa-824d0839b998")
+		)
+		(pin "20"
+			(uuid "d2af0f4e-5501-4749-b93d-a8ffc5b322ac")
+		)
+		(pin "21"
+			(uuid "14b5a1f9-13a9-445b-9318-f84880f0f204")
+		)
+		(pin "22"
+			(uuid "bf332068-b0d7-4467-82cb-67a5d93cf5c1")
+		)
+		(pin "3"
+			(uuid "a1996a53-3c8b-4325-b44e-53670d714df8")
+		)
+		(pin "4"
+			(uuid "4251addd-3668-4969-b9c6-a082c56b86ac")
+		)
+		(pin "5"
+			(uuid "7cca8caa-15d3-40d7-8d09-82dbe1324bf7")
+		)
+		(pin "6"
+			(uuid "6afad364-6e1c-4ca8-a7f9-5080402a1a35")
+		)
+		(pin "7"
+			(uuid "4243d692-bcb8-49a3-93a1-d10509c1f6fa")
+		)
+		(pin "8"
+			(uuid "6aaa8c66-1e42-45d6-be2e-05136bb5da30")
+		)
+		(pin "9"
+			(uuid "9ae4e727-2d12-4ebd-808a-e71be49d505f")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:Diode")
+		(at 226.06 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edb414d5-95da-46fb-b156-12e44fd77636")
+		(property "Reference" "D36"
+			(at 227.33 113.03 90)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kb:Diode"
+			(at 223.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "419f910b-840f-4c75-a1de-9db3621de236")
+		)
+		(pin "2"
+			(uuid "72abceba-8395-4243-978c-577feebe7c6f")
+		)
+		(instances
+			(project ""
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 138.43 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edec27e1-2860-42d4-9048-31f54d900cce")
+		(property "Reference" "SW31b"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d33f4cf-281a-4622-92c4-9266e54f9bf9")
+		)
+		(pin "2"
+			(uuid "3cdb59b7-9336-4e44-b76a-fa21599b5d7b")
+		)
+		(instances
+			(project "mad36v3"
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW31b")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyb:key")
+		(at 158.75 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5d830e0-6096-416b-8e91-62c4a7e6d016")
+		(property "Reference" "SW32b"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 0.65 0.65)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "key"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V1_1.00u"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9adbd9f1-f673-4d1c-9b54-507897b0f4a7")
+		)
+		(pin "2"
+			(uuid "89712d3c-d10c-4890-9fa7-94e8e5581134")
+		)
+		(instances
+			(project "mad36v3"
+				(path "/821da4e2-cb42-48c5-94e3-99ae80b5f6b6"
+					(reference "SW32b")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

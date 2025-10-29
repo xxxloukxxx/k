@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kb")(type "KiCad")(uri "${KIPRJMOD}/keyb-footprints.pretty")(options "")(descr ""))
+)
