@@ -63,6 +63,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 const uint16_t PROGMEM combo_esc[] = {KC_Q, KC_W, COMBO_END};
 const uint16_t PROGMEM combo_bsp[] = {KC_O, KC_P, COMBO_END};
 const uint16_t PROGMEM combo_tab[] = {KC_S, KC_D, COMBO_END};
+const uint16_t PROGMEM combo_ta2[] = {KC_S, KC_A, COMBO_END};
 const uint16_t PROGMEM combo_ent[] = {KC_L, KC_QUOT, COMBO_END};
 const uint16_t PROGMEM combo_alt[] = {KC_DOT, KC_COMMA, COMBO_END};
 const uint16_t PROGMEM combo_rst[] = {KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, COMBO_END};
@@ -71,6 +72,7 @@ combo_t key_combos[] = {
     COMBO(combo_bsp, KC_BSPC), //
     COMBO(combo_esc, KC_ESC),  //
     COMBO(combo_tab, KC_TAB),  //
+    COMBO(combo_ta2, KC_TAB),  //
     COMBO(combo_ent, KC_ENT),  //
     COMBO(combo_alt, KC_RALT), //
     COMBO(combo_rst, QK_BOOT)  //
