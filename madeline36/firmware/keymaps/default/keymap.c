@@ -48,15 +48,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, /*    */ KC_PSCR, KC_SCRL, KC_PAUS, KC_INS, KC_CAPS, //
         KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, /*    */ KC_F11, KC_F12, KC_F13, KC_F14, KC_F15,    //
         KC_MUTE, KC_VOLD, KC_VOLU, ___, ___, /*    */ ___, ___, ___, ___, ___,                  //
-        ___, ___, ___, /* */ ___, KC_RALT, ___                                                   //
+        ___, ___, ___, /* */ ___, ___, ___                                                      //
         ),                                                                                      //
 
-    [_BOTH] = LAYOUT(                                                          //
-        KC_ESC, ___, ___, ___, ___, /*    */ ___, ___, ___, KC_PGUP, KC_BSPC,  //
-        ___, ___, ___, ___, ___, /*    */ ___, ___, KC_HOME, KC_PGDN, KC_END,  //
-        ___, KC_CUT, KC_COPY, KC_PASTE, ___, /*    */ ___, ___, ___, ___, ___, //
-        ___, ___, ___, /*    */ ___, ___, ___                                  //
-        ),                                                                     //
+    [_BOTH] = LAYOUT(                                                                     //
+        KC_ESC, ___, ___, ___, ___, /*    */ ___, ___, ___, KC_PGUP, KC_BSPC,             //
+        ___, ___, ___, ___, ___, /*    */ ___, ___, KC_HOME, KC_PGDN, KC_END,             //
+        ___, KC_CUT, KC_COPY, KC_PASTE, ___, /*    */ ___, ___, RALT(KC_COMMA), ___, ___, //
+        ___, ___, ___, /*    */ ___, ___, ___                                             //
+        ),                                                                                //
 };
 
 // COMBO is everything !
@@ -78,7 +78,7 @@ combo_t key_combos[] = {
     COMBO(combo_rst, QK_BOOT)  //
 };
 
-bool process_record_user(uint16_t keycode, keyrecord_t* record) {
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     update_tri_layer(_LOWER, _RAISE, _BOTH);
     return true;
 }

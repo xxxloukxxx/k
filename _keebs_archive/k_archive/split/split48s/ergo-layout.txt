@@ -1,0 +1,109 @@
+units:
+  uu: 1.05u
+points:
+  zones:
+    matrix:
+      columns:
+        p1:
+          key.splay: 8
+        p2:
+          #key.stagger: 0.25u
+          key.origin: [-.5u,-.5u]
+          #rows.bottom.shift: [0,-0.25u]
+          #rows.home.shift: [0,0.25u]
+        r:
+          key.splay: -2
+          key.stagger: 0.5u
+          key.origin: [-.5u,-.5u]
+        m:
+          key.splay: -2
+          key.stagger: 0.25u
+          key.origin: [-.5u,-.5u]
+        i1:
+          key.splay: -2
+          key.stagger: -0.25u
+          key.origin: [-.5u,-.5u]
+        i2:
+          key.splay: -2
+          key.stagger: -0.5u
+          key.origin: [-.5u,-.5u]
+      rows:
+        bottom:
+        home:
+        top:
+    botcross:
+      anchor.ref: matrix_p1_bottom
+      anchor.shift: [0,-u]
+      columns:
+        c1:
+        c2:
+        c3:
+      rows:
+        line:
+    botrow:
+      anchor.ref: matrix_i1_bottom
+      anchor.shift: [-.5u,-1.5u]
+      #anchor.rotate: -2
+      columns:
+        c1:
+        c2:
+          key.splay: -12
+          key.origin: [-0.5u,-0.5u]
+        c3:
+          key.height: 1.5u
+          key.splay: -12
+          key.origin: [-0.5u,-0.5u]
+          key.shift: [0,0.25u]
+      rows:
+        line:
+outlines:
+  keys:
+    - what: rectangle
+      where: true
+      bound: false
+      size: [14,14]
+  raw:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_p1_top
+          shift: [-uu/2,uu/2]
+        - ref: matrix_p2_top
+          shift: [uu/2,uu/2]
+        - ref: matrix_r_top
+          shift: [-uu/2,uu/2]
+        - ref: matrix_r_top
+          shift: [uu/2,uu/2]
+        - ref: matrix_m_top
+          shift: [-uu/2,uu/2]
+        - ref: matrix_m_top
+          shift: [uu/2,uu/2]
+        - ref: matrix_i1_top
+          shift: [-uu/2,uu/2]
+        - ref: matrix_i1_top
+          shift: [uu/2,uu/2]
+        - ref: matrix_i2_top
+          shift: [-uu/2,uu/2]
+        - ref: matrix_i2_top
+          shift: [uu/2,uu/2]
+        - ref: matrix_i2_top
+          shift: [1.5uu,0.5uu]
+        - ref: botrow_c3_line
+          shift: [.5uu,.75uu]
+        - ref: botrow_c3_line
+          shift: [.5uu,-.75uu]
+        - ref: botrow_c3_line
+          shift: [-.5uu,-.75uu]
+#        - ref: botrow_c2_line
+#          shift: [-.5u,-.5uu]
+        - ref: botrow_c1_line
+          shift: [.5uu,-.5uu]
+        - ref: botcross_c3_line
+          shift: [uu/2,-uu/2]
+        - ref: botcross_c1_line
+          shift: [-uu/2,-uu/2]
+      fillet: 2
+  combo:
+    - name: raw
+    - operation: stack
+      name: keys

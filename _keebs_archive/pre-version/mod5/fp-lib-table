@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mod5footprint-lib")(type "KiCad")(uri "${KIPRJMOD}/mod5footprint-lib.pretty")(options "")(descr ""))
+  (lib (name "mx")(type "KiCad")(uri "/home/cedric/Documents/3d/pcb/kiswitch/library/footprints/Switch_Keyboard_Cherry_MX.pretty")(options "")(descr ""))
+)

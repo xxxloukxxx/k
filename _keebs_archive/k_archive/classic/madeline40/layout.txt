@@ -1,0 +1,16 @@
+[{y:0.15,x:10.3,t:"#000000\n#0000ff\n#ff0000\n#ff0000",f:2},"\nF10\n<i class='kb kb-Line-End'></i>\n\n\n\n\n\n\nP","\n<i class='kb kb-Multimedia-Mute-2'></i>\ndel\n\n\n\n\n\n\nBS"],
+    [{y:-1,x:0.45,a:0},"\nF1\n!\n1\n\nesc\n\n\n\nQ"],
+    [{y:0.02,x:0.3,a:4,w:1.25},"\nF11\n^\n6\n\n\n\n\n\nA",{x:9.15,w:1.75},"\n\n<i class='fa fa-arrow-right'></i>\n\n\n\n\n\n\nEnter"],
+    [{y:0.02,x:0.125,t:"#000000",a:7,w:1.75},"LSFT(Z)",{x:8.545,t:"#000000\n#0000ff\n#ff0000\n#ff0000",a:4,w:1.25},"\nCL\n|\n\\\n\n\n\n\n?\n\n/",{x:0.03,t:"#000000",a:5},"\"\n'"],
+    [{y:0.02,x:0.25,a:7},"ctrl",{x:10.25,t:"#0000ff"},"fn"],
+    [{r:5,rx:5,ry:2.75,y:0.8,x:-3.5,t:"#000000"},"alt"],
+    [{r:10,y:-3.8,x:-3.75,t:"#000000\n#0000ff\n#ff0000\n#ff0000",a:0},"\nF2\n@\n2\nesc\ngrv\n\n\n\nW","\nF3\n#\n3\ngrv\n\n\n\n\nE",{a:4},"\nF4\n$\n4\n\n\n\n\n\nR","\nF5\n%\n5\n\n\n\n\n\nT"],
+    [{x:-3.5,a:0},"\nF12\n&\n7\n\ntab\n\n\n\nS","\nF13\n*\n8\ntab\n\n\n\n\nD",{a:4},"\nF14\n(\n9\n\n\n\n\n\nF","\nF15\n)\n0\n\n\n\n\n\nG"],
+    [{x:-3,t:"#000000",a:7},"X","C",{t:"#000000\n#0000ff\n#ff0000\n#ff0000",a:4},"\n\n{\n[\n\n\n\n\n\nV","\n\n}\n]\n\n\n\n\n\nB"],
+    [{x:-2.25,t:"#000000",a:7},"win",{w:2.25},"space"],
+    [{r:-10,rx:7.25,y:-2,x:-0.75,t:"#000000\n#0000ff\n#ff0000\n#ff0000",a:4},"\nF6\n_\n-\n\n\n\n\n\nY","\nF7\n+\n=\n\n\n\n\n\nU","\nF8\n<i class='fa fa-home'></i>\n\n\n\n\n\n\nI","\nF9\n<i class='fa fa-arrow-up'></i>\n\n\n\n\n\n\nO"],
+    [{x:-0.5,t:"#000000",a:7},"H",{t:"#000000\n#0000ff\n#ff0000\n#ff0000",a:4},"\n\n:\n;\n\n\n\n\n\nJ","\n<i class='kb kb-Multimedia-Volume-Down-1'></i>\n<i class='fa fa-arrow-left'></i>\n\n\n\n\n\n\nK","\n<i class='kb kb-Multimedia-Volume-Up-2'></i>\n<i class='fa fa-arrow-down'></i>\n\n\n\n\n\n\nL"],
+    [{x:-1,t:"#000000",a:7},"N",{t:"#000000\n#0000ff\n#ff0000\n#ff0000",a:4},"\nPS\n\n\n\n\n\n\n\nM","\nSL\n\n\n\n\n\n\n<\n\n,","\n<i class='kb kb-Multimedia-Pause'></i>\n\n\n\n\n\n\n>\n\n."],
+    [{x:-1,t:"#ff0000",a:7,w:2.25},"LT(nav,space)",{t:"#000000"},"altGr"],
+    [{r:-5,y:-1.2,x:2.5,w:1.5},"shift"]
+

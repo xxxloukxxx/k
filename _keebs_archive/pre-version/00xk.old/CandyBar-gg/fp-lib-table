@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MX")(type "KiCad")(uri "${KIPRJMOD}/pcb/MX_V2/MX_Alps_Hybrid.pretty")(options "")(descr ""))
+  (lib (name "OLED")(type "KiCad")(uri "${KIPRJMOD}/pcb/_OLED")(options "")(descr ""))
+)

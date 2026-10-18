@@ -1,10 +1,6 @@
 #include "quantum.h"
 
-enum layers { _BASE,
-    _LOWER,
-    _RAISE,
-    _FN,
-    _BOTH };
+enum layers { _BASE, _LOWER, _RAISE, _FN, _BOTH };
 
 #define ___ KC_TRNS
 
@@ -50,24 +46,24 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, /* */ KC_PSCR, KC_SCRL, KC_PAUS, KC_INS, KC_CAPS, //
         KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, /* */ KC_F11, KC_F12, ___, ___, ___,             //
         KC_MUTE, KC_VOLD, KC_VOLU, ___, ___, /* */ ___, ___, ___, ___, ___,                  //
-        ___, ___, ___, /* */ ___, KC_RALT, ___                                                   //
+        ___, ___, ___, /* */ ___, ___, ___                                                   //
         ),                                                                                   //
 
     [_BOTH] = LAYOUT(                                                      //
         KC_ESC, ___, ___, ___, ___, /* */ ___, ___, ___, KC_PGUP, KC_BSPC, //
         ___, ___, ___, ___, ___, /* */ ___, ___, KC_HOME, KC_PGDN, KC_END, //
-        ___, ___, ___, ___, ___, /* */ ___, ___, ___, ___, ___,            //
+        ___, ___, ___, ___, ___, /* */ ___, ___, RALT(KC_COMMA), ___, ___, //
         ___, ___, ___, /* */ ___, ___, ___                                 //
         ),                                                                 //
 };
 
 // COMBO is everything !
-const uint16_t PROGMEM combo_esc[] = { KC_Q, KC_W, COMBO_END };
-const uint16_t PROGMEM combo_bsp[] = { KC_O, KC_P, COMBO_END };
-const uint16_t PROGMEM combo_tab[] = { KC_S, KC_D, COMBO_END };
-const uint16_t PROGMEM combo_ent[] = { KC_L, KC_QUOT, COMBO_END };
-const uint16_t PROGMEM combo_alt[] = { KC_DOT, KC_COMMA, COMBO_END };
-const uint16_t PROGMEM combo_rst[] = { KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, COMBO_END };
+const uint16_t PROGMEM combo_esc[] = {KC_Q, KC_W, COMBO_END};
+const uint16_t PROGMEM combo_bsp[] = {KC_O, KC_P, COMBO_END};
+const uint16_t PROGMEM combo_tab[] = {KC_S, KC_D, COMBO_END};
+const uint16_t PROGMEM combo_ent[] = {KC_L, KC_QUOT, COMBO_END};
+const uint16_t PROGMEM combo_alt[] = {KC_DOT, KC_COMMA, COMBO_END};
+const uint16_t PROGMEM combo_rst[] = {KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, COMBO_END};
 //
 combo_t key_combos[] = {
     COMBO(combo_bsp, KC_BSPC), //
@@ -78,8 +74,7 @@ combo_t key_combos[] = {
     COMBO(combo_rst, QK_BOOT)  //
 };
 
-bool process_record_user(uint16_t keycode, keyrecord_t* record)
-{
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     update_tri_layer(_LOWER, _RAISE, _BOTH);
     return true;
 }

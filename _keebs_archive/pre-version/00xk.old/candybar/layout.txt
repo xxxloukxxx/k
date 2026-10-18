@@ -1,0 +1,6 @@
+[{c:"#393b3b",t:"#d8d2c3\n#0084c2\n#dd1126\n#dd1126",fa:[0,0,2,2]},"Esc\n\n~\n`",{c:"#cccccc",t:"#000000\n#0084c2\n#dd1126\n#dd1126",fa:[0,1,2,2]},"Q\nF1\n!\n1","W\nF2\n@\n2","E\nF3\n#\n3","R\nF4\n$\n4","T\nF5\n%\n5","Y\nF6\n^\n6","U\nF7\n&\n7","I\nF8\n*\n8","O\nF9\n(\n9","P\nF10\n)\n0","BS\nIns\n\nDel",{x:1.5},"7","8","9","*\n\n\n/"],
+[{w:1.25},"Tab\nMute","A\nVol(-)","S\nVol(+)","D\nPlay","F\nStop","G","H","J\n\n_\n-","K\nF11\n+\n=","L\nF12\n\"\n'",{c:"#ebd400",w:1.75},"Enter\n\n|\n\\",{x:1.5,c:"#cccccc"},"4","5","6","+\n\n\n-"],
+[{c:"#689b34",w:1.75},"Shift\nCL",{c:"#cccccc"},"Z\nPrtScr","X\nScrLock","C\nPause","V","B","N\n\n{\n[","M\n\n}\n]","<\n.\n:\n;",">\n.\n?\n/",{c:"#689b34",w:1.25},"Shift",{x:1.5,c:"#cccccc"},"1","2","3",{fa:[0,1,2,2,0,0,0,0,0,9],h:2},"\nNL\n\n\n\n\n\n\n\n&crarr;"],
+[{y:-0.75,x:12.25,c:"#aca693"},"UP\n\n\nPGUP"],
+[{y:-0.25,c:"#cccccc",w:1.25},"Ctrl","Win",{w:1.25},"Alt",{w:2.75},"Space",{w:2.25},"Space",{c:"#ed6c7a",w:1.25},"Fn1",{c:"#0084c2",w:1.25},"Fn2",{x:3.5,c:"#cccccc"},"0","."],
+[{y:-0.75,x:11.25,c:"#aca693"},"LEFT\n\n\nHOME","DN\n\n\nPGDN","RIGHT\n\n\nEND"]

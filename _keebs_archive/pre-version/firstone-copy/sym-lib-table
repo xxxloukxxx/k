@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ProMicro")(type "Legacy")(uri "/home/cedric/Documents/3d/pcb/ProMicroKiCad/promicro_library/promicro.lib")(options "")(descr ""))
+)

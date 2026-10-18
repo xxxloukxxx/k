@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "_mx")(type "KiCad")(uri "${KIPRJMOD}/../MX_V2/MX_Alps_Hybrid.pretty")(options "")(descr ""))
+  (lib (name "_promicro")(type "KiCad")(uri "${KIPRJMOD}/../ProMicroKiCad/promicro.pretty")(options "")(descr ""))
+  (lib (name "_OLED")(type "KiCad")(uri "${KIPRJMOD}/../OLED")(options "")(descr ""))
+)

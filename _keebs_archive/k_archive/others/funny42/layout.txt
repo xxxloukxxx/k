@@ -1,0 +1,5 @@
+["Esc\n\n~\n`","Q\n\n\n1\nF1","W\n\n\n2\nF2","E\n\n\n3\nF3","R\n\n\n4\nF4","T\n\n\n5\nF5","Y\n\n\n6\nF6","U\n\n\n7\nF7","I\n\n\n8\nF8","O\n\n\n9\nF9","P\n\n\n0\nF10",{x:0.25,w:1.25,h:2,w2:1.5,h2:1,x2:-0.25},"\n\n\n<i class='fa fa-chevron-left'></i>"],
+[{w:1.25},"Tab\n\n\n<i class='fa fa-lock'></i>","A","S","D","F","G","H","J\n\n_\n-","K\n\n+\n=","L\n\n|\n\\\nF11",":\n;\n\"\n'\nF12"],
+[{x:0.5,w:1.25},"Shift","Z","X","C","V","B","N\n\n{\n[","M\n\n}\n]","<\n,\n?\n/","<i class='fa fa-arrow-up'></i>\n\n\nPU",{w:1.25},">\n.\n\n\n\n\n\n<i class='fa fa-trash'></i>"],
+[{y:-0.5,x:13.25,w:1.5,h:1.5},"\n\nS-L1\nL1\nL2"],
+[{y:-0.5,x:0.75,w:1.25},"Ctrl",{w:1.25},"Win",{w:2.25},"\n\n\nMO(2)","Alt",{a:7,w:2.25},"LT(1,space)",{a:4},"<i class='fa fa-arrow-left'></i>\n\n\n<i class='fa fa-home'></i>","<i class='fa fa-arrow-down'></i>\n\n\nPD","<i class='fa fa-arrow-right'></i>\n\n\nEnd"]

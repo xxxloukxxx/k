@@ -1,0 +1,8 @@
+[{a:0},"~\n`\n\n\n\n11","!\n1\n\n\n\n12","@\n2\n\n\n\n13","#\n3\n\n\n\n14","$\n4\n\n\n\n15","%\n5\n\n\n\n16","^\n6\n\n\n\n17","&\n7\n\n\n\n21","*\n8\n\n\n\n22","(\n9\n\n\n\n23",")\n0\n\n\n\n24","_\n-\n\n\n\n25","+\n=\n\n\n\n26",{a:2,w:1.5},"Backspace\n\n\n\n\n27",{x:1.25},"Home\n\n\n\n\n07"],
+[{a:0,w:1.5},"Tab\n\n\n\n\n31","Q\n\n\n\n\n32","W\n\n\n\n\n33","E\n\n\n\n\n34","R\n\n\n\n\n35","T\n\n\n\n\n36","Y\n\n\n\n\n37","U\n\n\n\n\n41","I\n\n\n\n\n42","O\n\n\n\n\n43","P\n\n\n\n\n44","{\n[\n\n\n\n45","}\n]\n\n\n\n46","|\n\\\n\n\n\n47",{x:1.25,a:2},"Page Up\n\n\n\n\n06"],
+[{a:0,w:1.75},"Caps Lock\n\n\n\n\n51","A\n\n\n\n\n52","S\n\n\n\n\n53","D\n\n\n\n\n54","F\n\n\n\n\n55","G\n\n\n\n\n56","H\n\n\n\n\n57","J\n\n\n\n\n61","K\n\n\n\n\n62","L\n\n\n\n\n63",":\n;\n\n\n\n64","\"\n'\n\n\n\n65",{a:2,w:1.75},"Enter\n\n\n\n\n66",{x:1.25},"Page Down\n\n\n\n\n05"],
+[{w:2.25},"Shift\n\n\n\n\n71",{a:0},"Z\n\n\n\n\n72","X\n\n\n\n\n73","C\n\n\n\n\n74","V\n\n\n\n\n75","B\n\n\n\n\n76","N\n\n\n\n\n77","M\n\n\n\n\n81","<\n,\n\n\n\n82",">\n.\n\n\n\n83","?\n/\n\n\n\n84",{a:2,w:1.75},"Shift\n\n\n\n\n85"],
+[{y:-0.75,x:14.25,a:3},"↑\n\n\n\n\n04"],
+[{y:-0.25,a:2,w:1.25},"Ctrl\n\n\n\n\n91",{w:1.25},"Win\n\n\n\n\n92",{w:1.25},"Alt\n\n\n\n\n93",{a:3,w:2.75},"\n\n\n\n\n94",{w:1.25},"\n\n\n\n\n95",{w:2.25},"\n\n\n\n\n96",{a:2},"Fn\n\n\n\n\n97","Alt\n\n\n\n\n86","Ctrl\n\n\n\n\n87"],
+[{y:-0.75,x:13.25,a:3},"←\n\n\n\n\n01","↓\n\n\n\n\n02","→\n\n\n\n\n03"]
+

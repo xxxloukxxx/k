@@ -1,7 +1,7 @@
 {
   "keyboard_name": "Ada36",
   "manufacturer": "10v314c3",
-  "url": "",
+  "url": "ada36",
   "maintainer": "Plop",
   "usb": {
     "vid": "0x1836",

@@ -1,0 +1,191 @@
+[
+  {
+    "backcolor": "#000000",
+    "name": "BM43a",
+    "author": "TODARO Cédric",
+    "radii": "10px",
+    "switchMount": "cherry",
+    "pcb": true
+  },
+  [
+    {
+      "c": "#909090",
+      "fa": [
+        2,
+        2
+      ]
+    },
+    "~\n`\n\n\nTO(0)\n\n\n\n\nEsc",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n#0000ff",
+      "fa": [
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    "!\n1\n\nF1\n\n\n\n\n\nQ",
+    {
+      "t": "#000000"
+    },
+    "@\n2\n\nF2\n\n\n\n\n\nW",
+    "#\n3\n\nF3\n\n\n\n\n\nE",
+    "$\n4\n\nF4\n\n\n\n\n\nR",
+    "%\n5\n\nF5\n\n\n\n\n\nT",
+    "^\n6\n\nF6\n\n\n\n\n\nY",
+    "&\n7\n\nF7\n\n\n\n\n\nU",
+    "*\n8\n\nF8\n\n\n\n\n\nI",
+    "(\n9\n\nF9\n\n\n\n\n\nO",
+    ")\n0\n\nF10\n\n\n\n\n\nP",
+    "\nDel\n\nF1\nReset\n\n\n\n\nBS"
+  ],
+  [
+    {
+      "w": 1.25
+    },
+    "\nCapsLock\n\n\n\n\n\n\n\nTab",
+    {
+      "a": 7,
+      "f": 3
+    },
+    "A\n\n\n\nEffect +",
+    {
+      "f": 3
+    },
+    "S\n\n\n\nRGB p",
+    {
+      "f": 3
+    },
+    "D\n\n\n\nRGB b",
+    {
+      "f": 3
+    },
+    "F\n\n\n\nRGB r",
+    {
+      "f": 3
+    },
+    "G\n\n\n\nRGB sw",
+    {
+      "a": 4,
+      "f": 3
+    },
+    "_\n-\n\n\nRGB sn\n\n\n\n\nH",
+    {
+      "f": 3
+    },
+    "+\n=\n\n\nRGB k\n\n\n\n\nJ",
+    {
+      "f": 3
+    },
+    "{\n[\n\n\nRGB x\n\n\n\n\nK",
+    {
+      "f": 3
+    },
+    "}\n]\n\n\nRGB g\n\n\n\n\nL",
+    {
+      "c": "#abffab",
+      "f": 3,
+      "w": 1.75
+    },
+    "|\n\\\n\nTT(3)\n\n\n\n\n\nEnter"
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "a": 7,
+      "f": 3,
+      "w": 2
+    },
+    "LShift\n\n\n\nRGB Toggle",
+    {
+      "a": 4,
+      "f": 3
+    },
+    "\n\n\nMute\nEffect -\n\n\n\n\nZ",
+    {
+      "f": 3
+    },
+    "\n\n\nVol -\n\n\n\n\n\nX",
+    {
+      "f": 3
+    },
+    "\n\n\nVol +\n\n\n\n\n\nC",
+    {
+      "a": 7,
+      "f": 3
+    },
+    "V",
+    {
+      "f": 3
+    },
+    "B",
+    {
+      "f": 3
+    },
+    "N",
+    {
+      "a": 4,
+      "f": 3
+    },
+    ":\n;\n\n\nMode +\n\n\n\n\nM",
+    {
+      "f": 3
+    },
+    "\"\n'\n\n\nHue +\n\n\n\n<\n\n,",
+    {
+      "f": 3
+    },
+    "\nPup\n\n\nSat +\n\n\n\n\nUp",
+    {
+      "f": 3
+    },
+    "?\n/\n\n\nBright +\n\n\n\n>\n\n."
+  ],
+  [
+    {
+      "a": 7,
+      "f": 3
+    },
+    "LCtrl",
+    {
+      "f": 3
+    },
+    "LGui",
+    {
+      "f": 3
+    },
+    "LAlt",
+    {
+      "a": 4,
+      "f": 3,
+      "w": 2.75
+    },
+    "\n\n\nRGB Toggle\n\n\n\n\n\nSpace",
+    {
+      "c": "#ababff",
+      "f": 3,
+      "w": 2.25
+    },
+    "\nMO(1)",
+    {
+      "c": "#ffabab",
+      "f": 3
+    },
+    "\n\n\nMO(2)\nMode -",
+    {
+      "c": "#cccccc",
+      "f": 3
+    },
+    "\nHome\n\n\nHue -\n\n\n\n\nLeft",
+    {
+      "f": 3
+    },
+    "\nPdown\n\n\nSat -\n\n\n\n\nDown",
+    {
+      "f": 3
+    },
+    "\nEnd\n\n\nBright -\n\n\n\n\nRight"
+  ]
+]

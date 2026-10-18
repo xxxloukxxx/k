@@ -1,0 +1,8 @@
+[{r:6,rx:5.75,ry:0.75,x:-5.5,t:"#0900ff\n#ff0000\n\n\n#707070\n#707070\n\n\n\n#000000",a:0,f:2},"!\n1\n\n\n\nesc\n\n\n\nQ","@\n2\n\n\nesc\n\n\n\n\nW",{t:"#0900ff\n#ff0000\n\n\n\n\n\n\n\n#000000",a:4},"#\n3\n\n\n\n\n\n\n\nE","$\n4\n\n\n\n\n\n\n\nR","%\n5\n\n\n\n\n\n\n\nT"],
+[{x:-5.5,w:1.25},"^\n6\n\n\n\n\n\n\n\nA",{t:"#0900ff\n#ff0000\n\n\n#707070\n#707070\n\n\n\n#000000",a:0},"&\n7\n\n\n\ntab\n\n\n\nS","*\n8\n\n\ntab\n\n\n\n\nD",{t:"#0900ff\n#ff0000\n\n\n\n\n\n\n\n#000000",a:4},"(\n9\n\n\n\n\n\n\n\nF",")\n0\n\n\n\n\n\n\n\nG"],
+[{x:-5.5,t:"#000000\n#139c2a\n\n\n\n\n#000000",a:5,w:1.75},"\nLshift\n\n\n\n\nZ",{t:"#0900ff\n#ff0000\n\n\n\n\n\n\n\n#000000\n#139c2a",a:4},"\n(\n\n\n\n\n\n\n\nX\nLalt",{t:"#0900ff\n#ff0000\n\n\n\n\n\n\n\n#000000"},"\n)\n\n\n\n\n\n\n\nC","\n[\n\n\n\n\n\n\n\nV","\n]\n\n\n\n\n\n\n\nB"],
+[{x:-4.5,t:"#000000",a:7,w:1.25},"LCTL",{w:1.25},"LGUI",{t:"#000000\n#139c2a\n\n\n\n\n#000000",a:5,w:2.25},"\nRaise\n\n\n\n\nSPC"],
+[{r:-6,rx:6,t:"#0900ff\n#ff0000\n\n\n\n\n\n\n\n#000000",a:4},"_\n-\n\n\n\n\n\n\n\nY","+\n=\n\n\n\n\n\n\n\nU","\ndel\n\n\n\n\n\n\n\nI","pgup\nup\n\n\n\n\n\n\n\nO",{w:1.25},"TILDE\nbspc\n\n\n\n\n\n\n\nP"],
+[{x:0.25},"|\n\\\n\n\n\n\n\n\n\nH",":\n;\n\n\n\n\n\n\n\nJ","\nleft\n\n\n\n\n\n\n\nK",{t:"#0900ff\n#ff0000\n\n\n#707070\n#707070\n\n\n\n#000000",a:0},"pgdn\ndown\n\n\n\nent\n\n\n\nL","GRV\nright\n\n\nent\n\n\n\n\nQUOT"],
+[{x:-0.25,t:"#0900ff\n\n\n\n\n\n\n\n\n#000000",a:4},"{\n\n\n\n\n\n\n\n\nN","}\n\n\n\n\n\n\n\n\nM",{t:"#000000\n\n\n\n#707070\n#707070",a:3},"COMMA\n\n\n\n\nralt","DOT\n\n\n\nralt",{t:"#000000\n#139c2a\n\n\n\n\n#000000",a:5,w:1.5},"\nRshift\n\n\n\n\n/"],
+[{x:-0.25,w:2},"\nLower\n\n\n\n\nSPC",{t:"#000000",a:7,w:1.25},"LALT",{w:1.25},"FN"]

@@ -1,0 +1,8 @@
+[{a:0,f:2},"Q\n\n\n\n\n<i class='mss mss-Unicode-Escape-3'></i>","W\n\n\n\n<i class='mss mss-Unicode-Escape-3'></i>",{a:4},"E","R","T","Y","U","I","O",{a:0},"P\n\n\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>","<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>\n\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>"],
+[{w:1.25},"A\n\n\n\n\n<i class='kb kb-Tab-1'></i>","S\n\n\n\n<i class='kb kb-Tab-1'></i>",{a:4},"D","F","G","H","J","K","L",{w:1.75},"Enter"],
+[{w:1.75},"LSFT_T(Z)","X","C","V","B","N","M","<\n.",">\n.",{w:1.25},"Shift"],
+[{w:1.5},"Ctrl",{x:1,w:1.25},"Alt",{a:7,w:1.75},"",{w:1.75},"",{a:4,w:1.25},"fn1",{x:1,w:1.5},"fn2"],
+[{y:1,a:0},"!\n1\n\n\n\n<i class='mss mss-Unicode-Escape-3'></i>","@\n2\n\n\n<i class='mss mss-Unicode-Escape-3'></i>",{a:4},"#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",{a:0},")\n0\n\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>","<i class='mss mss-Unicode-DeleteRight-Big-2'></i>\n\n\n\n<i class='mss mss-Unicode-DeleteRight-Big-2'></i>"],
+[{a:3,w:1.25},"\n\n\n\n\n<i class='kb kb-Tab-1'></i>","\n\n\n\n<i class='kb kb-Tab-1'></i>",{a:7},"","","","",{a:4},"_\n-","+\n=","\"\n'",{w:1.75},"|\n\\"],
+[{a:7,w:1.75},"",{a:4},"<i class='kb kb-Arrows-Left'></i>","<i class='kb kb-Arrows-Up'></i>","<i class='kb kb-Arrows-Down'></i>","<i class='kb kb-Arrows-Right'></i>","{\n[","}\n]",":\n;","?\n/",{a:7,w:1.25},""],
+[{w:1.5},"",{x:1,w:1.25},"",{w:1.75},"",{w:1.75},"",{w:1.25},"",{x:1,w:1.5},""]
